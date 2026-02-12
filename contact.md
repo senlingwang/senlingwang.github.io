@@ -3,5 +3,5 @@ title: "Contact"
 permalink: /contact/
 ---
 
-- Email: (university email)
+- Email: ou.shinrei.dw@ehime-u.ac.jp
 - Office: Ehime University (department-level info)
