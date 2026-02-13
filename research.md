@@ -3,9 +3,22 @@ title: "Research"
 permalink: /research/
 ---
 
-## Research Themes
-- High-reliability design for AI-chip architectures
-- Self-test/diagnosis for functional safety (automotive)
-- Dependability enhancement for cyber-physical systems
-- Lifecycle reliability for chiplet systems
-- Low-power testing for test safety
+## Research Overview
+My goal is to develop **dependable and intelligent systems** spanning compute–chip–robot.
+
+---
+
+## <a id="hpc"></a>HPC & Systems
+- Key focus 1
+- Key focus 2
+- Representative outputs (papers/projects)
+
+## <a id="ictest"></a>IC Test & Diagnosis
+- Low-power / field test
+- Fault diagnosis, testability, dependable design
+- Representative outputs
+
+## <a id="physicalai"></a>Physical AI Robotics
+- Generative AI + embodied agents
+- Real-world deployment and verification
+- Demos / datasets / videos
