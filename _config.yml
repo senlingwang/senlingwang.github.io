@@ -1,29 +1,40 @@
 title: "Senling Wang / 王 森岭"
-description: "Dependable Computing • LSI Test & Diagnosis • Hardware Security"
-url: "https://senlingwang.github.io"
+description: "Dependable Computing • HPC • IC Test & Diagnosis • Physical AI Robotics"
+url: "https://<YOUR_GITHUB_USERNAME>.github.io"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
+# 明るい印象に寄せる
+minimal_mistakes_skin: "air"   # もし合わなければ "default" でもOK
+
+locale: "ja-JP"
+
 author:
   name: "Senling Wang (王 森岭)"
-  avatar: "/assets/images/profile.jpg"   # 後で差し替え
-  bio: "Lecturer, Ehime University. LSI test & diagnosis, low-power/field test, dependable computing."
+  avatar: "/assets/images/profile.jpg"  # 後で写真を置く
+  bio: "Lecturer, Ehime University. Research: HPC, IC test/diagnosis, dependable CPS, and Physical AI robotics."
   location: "Ehime, Japan"
   links:
-    - label: "Lab Website"
+    - label: "Lab"
       icon: "fas fa-link"
       url: "http://larissa.cs.ehime-u.ac.jp/"
     - label: "KAKEN (NII)"
       icon: "fas fa-graduation-cap"
       url: "https://nrid.nii.ac.jp/ja/nrid/1000090735581/"
 
+# 既定レイアウト
 defaults:
   - scope:
       path: ""
     values:
       layout: single
+      author_profile: true
+      classes: wide
 
-markdown: kramdown
+# 記事（News）用
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
