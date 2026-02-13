@@ -14,7 +14,7 @@ locale: "ja-JP"
 
 author:
   name: "Senling Wang (王 森岭)"
-  avatar: "/assets/images/profile.jpg"  # 後で写真を置く
+  avatar: "/assets/images/wang.jpg"  # 後で写真を置く
   bio: "Lecturer, Ehime University. Research: HPC, IC test/diagnosis, dependable CPS, and Physical AI robotics."
   location: "Ehime, Japan"
   links:
