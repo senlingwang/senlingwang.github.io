@@ -1,0 +1,24 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"c:\\\\Users\\\\sunny\\\\Downloads\\\\senlingwang\\.github\\.io\\\\rawdata\" ; python -c \"import zipfile; z = zipfile\\.ZipFile\\('temp\\.doc'\\); print\\(z\\.namelist\\(\\)\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^pip install python-docx 2>&1 \\| tail -5$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\sunny\\\\Downloads\\\\senlingwang\\.github\\.io\\\\rawdata\" ; powershell -NoProfile -Command \"\\$word = New-Object -ComObject Word\\.Application; \\$doc = \\$word\\.Documents\\.Open\\(\\(Get-Location\\)\\.Path \\+ '\\\\temp\\.doc', \\\\\\$null, \\\\\\$null, \\\\\\$null\\); \\\\\\$content = \\\\\\$doc\\.Content\\.Text; Set-Content -Path 'extracted\\.txt' -Value \\\\\\$content; \\\\\\$doc\\.Close\\(\\); \\\\\\$word\\.Quit\\(\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\sunny\\\\Downloads\\\\senlingwang\\.github\\.io\\\\rawdata\" ; powershell -ExecutionPolicy Bypass -File extract\\.ps1$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\sunny\\\\Downloads\\\\senlingwang\\.github\\.io\\\\rawdata\" ; strings \"temp\\.doc\" \\| head -100$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
