@@ -1,55 +1,108 @@
 ---
-...
----
-{% assign pillars = site.data.home.pillars %}
-{% include feature_row id="pillars" %}
-
----
-title: ""
-layout: splash
+title: "Senling Wang"
 permalink: /
-header:
-  overlay_color: "#ffffff"
-  overlay_filter: "0.05"
-  actions:
-    - label: "Publications"
-      url: "/publications/"
-    - label: "Projects"
-      url: "/projects/"
-excerpt: "Dependable & Intelligent Systems across <b>Compute</b> – <b>Chip</b> – <b>Robot</b>."
+layout: single
+author_profile: false
+classes: wide
 ---
 
-## About
-I am a **Lecturer** at [Ehime University](https://www.ehime-u.ac.jp/), Graduate School of Science and Engineering, specializing in dependable and intelligent computing systems. My research spans across **IC test & diagnosis**, **system-level dependability**, **secure design**, and **AI-chip reliability**. I hold a **Ph.D. in Information Engineering** from Kyushu Institute of Technology (2014).
+<style>
+  .language-home {
+    max-width: 860px;
+    margin: 3rem auto;
+    color: #25313d;
+  }
 
-My goal is to develop **dependable and intelligent systems** that ensure safety, reliability, and security in the super-smart society.
+  .language-home h1 {
+    margin: 0 0 0.6rem;
+    font-size: 2.4rem;
+    letter-spacing: 0;
+  }
 
-{% include feature_row id="pillars" type="left" %}
+  .language-home p {
+    margin: 0 0 1.5rem;
+    color: #53616f;
+  }
 
----
+  .language-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
 
-## Awards & Recognition
-- **2026** - ICECC2025 Best Presentation Award
-- **2025** - Ehime University Faculty of Engineering Education Contribution Award
-- **2023** - IEEE CASS Shikoku Chapter Best Paper Award  
-- **2021** - Ehime University Information Engineering Education Contribution Award
-- **2020** - Ehime University Information Engineering Education Contribution Award
-- **2016** - IEEE SSCS Japan Chapter VDEC Design Award
+  .language-card {
+    display: block;
+    padding: 1.25rem;
+    border: 1px solid #d7dee5;
+    border-radius: 8px;
+    color: #25313d;
+    text-decoration: none;
+    background: #ffffff;
+  }
 
----
+  .language-card:hover {
+    border-color: #8aa8bd;
+    text-decoration: none;
+  }
 
-## Featured Research Highlights
-- **Dependable VLSI Testing**: Automotive functional safety (ISO 26262), multi-cycle BIST, fault diagnosis
-- **AI Chip Reliability**: Memory-based reconfigurable processors (MRP), set operation processors (SOP)
-- **Secure Systems**: Lightweight authentication protocols (SAS-L), PUF design, chiplet security
-- **Education & Outreach**: Leading embedded systems education programs, semiconductor talent development
+  .language-card strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 1.2rem;
+  }
 
----
+  .page-links {
+    margin-top: 1.8rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid #d7dee5;
+  }
 
-## Selected Publications
-1. **Functional Fault Impact Probability Prediction using Spatio-Temporal Graph Convolutional Network** - *ACM Transactions on Design Automation of Electronic Systems*, 2026
-2. **SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism** - *Journal of Communications*, Vol. 20, 2025
-3. **Automotive Functional Safety Assurance by POST with Sequential Observation** - *IEEE Design and Test*, Vol. 35, No. 3, 2018
-4. **Software-Defined Secure Island for Testing Chiplet Systems** - *IEEE 34th Asian Test Symposium (ATS)*, 2025
+  .page-links ul {
+    margin: 0.4rem 0 0;
+    padding-left: 1.15rem;
+  }
 
-See [Publications page](/publications/) for the complete list (60+ peer-reviewed papers)
+  @media (max-width: 640px) {
+    .language-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="language-home">
+  <h1>Senling Wang</h1>
+  <p>Please choose a language. / 言語を選択してください。</p>
+
+  <div class="language-grid">
+    <a class="language-card" href="/en/">
+      <strong>English</strong>
+      <span>Open the English version of the site.</span>
+    </a>
+    <a class="language-card" href="/ja/">
+      <strong>日本語</strong>
+      <span>日本語版サイトを開きます。</span>
+    </a>
+  </div>
+
+  <div class="page-links">
+    <strong>English pages</strong>
+    <ul>
+      <li><a href="/en/research/">Research</a></li>
+      <li><a href="/en/publications/">Publications</a></li>
+      <li><a href="/en/projects/">Projects</a></li>
+      <li><a href="/en/teaching/">Teaching</a></li>
+      <li><a href="/en/contact/">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="page-links">
+    <strong>日本語ページ</strong>
+    <ul>
+      <li><a href="/ja/research/">研究</a></li>
+      <li><a href="/ja/publications/">業績</a></li>
+      <li><a href="/ja/projects/">プロジェクト</a></li>
+      <li><a href="/ja/teaching/">教育</a></li>
+      <li><a href="/ja/contact/">連絡先</a></li>
+    </ul>
+  </div>
+</div>

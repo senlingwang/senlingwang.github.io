@@ -1,13 +1,17 @@
 main:
-  - title: "Home"
+  - title: "Language"
     url: /
+  - title: "English"
+    url: /en/
+  - title: "JP"
+    url: /ja/
   - title: "Research"
-    url: /research/
+    url: /en/research/
   - title: "Publications"
-    url: /publications/
+    url: /en/publications/
   - title: "Projects"
-    url: /projects/
+    url: /en/projects/
   - title: "Teaching"
-    url: /teaching/
+    url: /en/teaching/
   - title: "Contact"
-    url: /contact/
+    url: /en/contact/
