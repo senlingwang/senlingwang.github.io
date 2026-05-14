@@ -1,10 +1,4 @@
 main:
-  - title: "Language"
-    url: /
-  - title: "English"
-    url: /en/
-  - title: "JP"
-    url: /ja/
   - title: "Research"
     url: /en/research/
   - title: "Publications"

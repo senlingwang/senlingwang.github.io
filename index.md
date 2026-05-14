@@ -1,5 +1,5 @@
 ---
-title: "Senling Wang"
+title: ""
 permalink: /
 layout: single
 author_profile: false
@@ -9,19 +9,55 @@ classes: wide
 <style>
   .language-home {
     max-width: 860px;
-    margin: 3rem auto;
+    margin: 2.5rem auto 3rem;
     color: #25313d;
+    text-align: center;
   }
 
   .language-home h1 {
-    margin: 0 0 0.6rem;
-    font-size: 2.4rem;
+    margin: 0 0 0.85rem;
+    font-size: 2.6rem;
+    line-height: 1.12;
     letter-spacing: 0;
   }
 
-  .language-home p {
-    margin: 0 0 1.5rem;
+  .language-intro {
+    max-width: 680px;
+    margin: 0 auto 1.4rem;
     color: #53616f;
+    font-size: 1.05rem;
+  }
+
+  .welcome-facts {
+    max-width: 680px;
+    margin: 0 auto 1.8rem;
+    text-align: left;
+    border-top: 1px solid #d7dee5;
+    border-bottom: 1px solid #d7dee5;
+    padding: 1rem 0;
+  }
+
+  .welcome-facts dl {
+    display: grid;
+    grid-template-columns: 8rem minmax(0, 1fr);
+    gap: 0.45rem 1rem;
+    margin: 0;
+  }
+
+  .welcome-facts dt {
+    color: #53616f;
+    font-weight: 700;
+  }
+
+  .welcome-facts dd {
+    margin: 0;
+  }
+
+  .brief-bio {
+    max-width: 680px;
+    margin: 0 auto 1.8rem;
+    color: #53616f;
+    text-align: left;
   }
 
   .language-grid {
@@ -32,7 +68,7 @@ classes: wide
 
   .language-card {
     display: block;
-    padding: 1.25rem;
+    padding: 1.25rem 1.35rem;
     border: 1px solid #d7dee5;
     border-radius: 8px;
     color: #25313d;
@@ -51,27 +87,49 @@ classes: wide
     font-size: 1.2rem;
   }
 
-  .page-links {
-    margin-top: 1.8rem;
-    padding-top: 1.4rem;
-    border-top: 1px solid #d7dee5;
-  }
-
-  .page-links ul {
-    margin: 0.4rem 0 0;
-    padding-left: 1.15rem;
-  }
-
   @media (max-width: 640px) {
+    .language-home {
+      margin-top: 1.5rem;
+    }
+
+    .language-home h1 {
+      font-size: 2rem;
+    }
+
     .language-grid {
       grid-template-columns: 1fr;
+    }
+
+    .welcome-facts dl {
+      grid-template-columns: 1fr;
+      gap: 0.12rem;
     }
   }
 </style>
 
 <div class="language-home">
-  <h1>Senling Wang</h1>
-  <p>Please choose a language. / 言語を選択してください。</p>
+  <h1>Welcome to my page</h1>
+  <p class="language-intro">
+    I am 王 森岭 (Senling Wang / オウ シンレイ). Please choose a language to enter the site.
+    <br>
+    王 森岭（Senling Wang / オウ シンレイ）のページへようこそ。表示言語を選択してください。
+  </p>
+
+  <div class="welcome-facts">
+    <dl>
+      <dt>Degree</dt>
+      <dd>Ph.D. in Information Engineering, Kyushu Institute of Technology (2014)</dd>
+      <dt>Title</dt>
+      <dd>Lecturer</dd>
+      <dt>Affiliation</dt>
+      <dd>Graduate School of Science and Engineering, Ehime University</dd>
+    </dl>
+  </div>
+
+  <p class="brief-bio">
+    My research focuses on dependable computing, IC test and diagnosis, AI-chip reliability,
+    secure systems, and Physical AI robotics.
+  </p>
 
   <div class="language-grid">
     <a class="language-card" href="/en/">
@@ -82,27 +140,5 @@ classes: wide
       <strong>日本語</strong>
       <span>日本語版サイトを開きます。</span>
     </a>
-  </div>
-
-  <div class="page-links">
-    <strong>English pages</strong>
-    <ul>
-      <li><a href="/en/research/">Research</a></li>
-      <li><a href="/en/publications/">Publications</a></li>
-      <li><a href="/en/projects/">Projects</a></li>
-      <li><a href="/en/teaching/">Teaching</a></li>
-      <li><a href="/en/contact/">Contact</a></li>
-    </ul>
-  </div>
-
-  <div class="page-links">
-    <strong>日本語ページ</strong>
-    <ul>
-      <li><a href="/ja/research/">研究</a></li>
-      <li><a href="/ja/publications/">業績</a></li>
-      <li><a href="/ja/projects/">プロジェクト</a></li>
-      <li><a href="/ja/teaching/">教育</a></li>
-      <li><a href="/ja/contact/">連絡先</a></li>
-    </ul>
   </div>
 </div>
