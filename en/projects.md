@@ -42,14 +42,18 @@ The Japan Society for the Promotion of Science supports basic and applied resear
 ## Enterprise & Industry Partnerships
 
 ### Renesas Electronics
-- Automotive functional safety testing
-- ISO 26262-related validation methods
-- Joint publications and technology transfer
+- Automotive functional safety testing (ISO 26262 compliance)
+- Verification architecture for automotive microcontrollers close to production
+- Joint publications at IEEE and other venues
+
+### Taiyo Yuden
+- LLM-driven intelligent robot research and development
+- Digital twin-based Physical AI platform construction and application development
+- [Robot demo video (YouTube)](https://youtu.be/zxKcb8hma6Q)
 
 ### Local Industry PBL
 - Imabari Shipbuilding
-- Ehime Shimbun
-- Iyo Bank
+- Miura Co., Ltd.
 - Local SMEs and IoT companies
 
 ---
