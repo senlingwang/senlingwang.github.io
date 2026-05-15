@@ -7,138 +7,304 @@ classes: wide
 ---
 
 <style>
-  .language-home {
-    max-width: 860px;
-    margin: 2.5rem auto 3rem;
+  /* ==============================
+     ランディングページ - A案 ミニマル・カード型
+     ============================== */
+
+  /* Google Fonts読み込み */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  .landing-wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     color: #25313d;
+  }
+
+  /* --- ヒーローヘッダー --- */
+  .landing-hero {
+    background: linear-gradient(135deg, #1a2744 0%, #243b5e 100%);
+    border-radius: 16px;
+    padding: 2.8rem 2.5rem;
+    margin: 2.5rem 0 2rem;
     text-align: center;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
   }
 
-  .language-home h1 {
-    margin: 0 0 0.85rem;
-    font-size: 2.6rem;
-    line-height: 1.12;
-    letter-spacing: 0;
+  .landing-hero::before {
+    content: "";
+    position: absolute;
+    top: -40%;
+    right: -20%;
+    width: 320px;
+    height: 320px;
+    background: radial-gradient(circle, rgba(59,130,246,0.12) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
   }
 
-  .language-intro {
-    max-width: 680px;
-    margin: 0 auto 1.4rem;
-    color: #53616f;
-    font-size: 1.05rem;
+  .landing-hero::after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: -15%;
+    width: 260px;
+    height: 260px;
+    background: radial-gradient(circle, rgba(59,130,246,0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
   }
 
-  .welcome-facts {
-    max-width: 680px;
-    margin: 0 auto 1.8rem;
-    text-align: left;
-    border-top: 1px solid #d7dee5;
-    border-bottom: 1px solid #d7dee5;
-    padding: 1rem 0;
+  .landing-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255,255,255,0.25);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    margin-bottom: 1.2rem;
+    position: relative;
+    z-index: 1;
   }
 
-  .welcome-facts dl {
-    display: grid;
-    grid-template-columns: 8rem minmax(0, 1fr);
-    gap: 0.45rem 1rem;
+  .landing-name {
+    margin: 0 0 0.3rem;
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    position: relative;
+    z-index: 1;
+  }
+
+  .landing-name-sub {
+    margin: 0 0 0.6rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255,255,255,0.7);
+    position: relative;
+    z-index: 1;
+  }
+
+  .landing-title {
+    margin: 0 0 1rem;
+    font-size: 0.92rem;
+    font-weight: 500;
+    color: rgba(255,255,255,0.85);
+    position: relative;
+    z-index: 1;
+  }
+
+  .landing-tagline {
     margin: 0;
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.5;
+    max-width: 520px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
   }
 
-  .welcome-facts dt {
-    color: #53616f;
+  /* --- キーワードタグ --- */
+  .landing-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1.5rem 0 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .landing-keywords span {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(4px);
+    color: rgba(255,255,255,0.9);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    border: 1px solid rgba(255,255,255,0.15);
+    transition: background 0.2s ease;
+  }
+
+  .landing-keywords span:hover {
+    background: rgba(255,255,255,0.2);
+  }
+
+  /* --- 言語選択セクション --- */
+  .landing-choose {
+    text-align: center;
+    margin: 0 0 1rem;
+  }
+
+  .landing-choose h2 {
+    margin: 0 0 0.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
+    color: #25313d;
   }
 
-  .welcome-facts dd {
+  .landing-choose p {
     margin: 0;
+    font-size: 0.88rem;
+    color: #6b7884;
   }
 
-  .brief-bio {
-    max-width: 680px;
-    margin: 0 auto 1.8rem;
-    color: #53616f;
-    text-align: left;
-  }
-
-  .language-grid {
+  /* --- 言語カードグリッド --- */
+  .lang-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    margin: 1.2rem 0 2.5rem;
   }
 
-  .language-card {
-    display: block;
-    padding: 1.25rem 1.35rem;
+  .lang-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem 1.2rem;
     border: 1px solid #d7dee5;
-    border-radius: 8px;
+    border-radius: 12px;
+    background: #ffffff;
     color: #25313d;
     text-decoration: none;
-    background: #ffffff;
+    transition: all 0.25s ease;
+    position: relative;
+    overflow: hidden;
   }
 
-  .language-card:hover {
-    border-color: #8aa8bd;
+  .lang-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+
+  .lang-card:hover {
+    border-color: #93b4cf;
+    box-shadow: 0 8px 24px rgba(26,39,68,0.08);
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: #25313d;
+  }
+
+  .lang-card:hover::before {
+    opacity: 1;
+  }
+
+  .lang-card-flag {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .lang-card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  .lang-card-desc {
+    font-size: 0.82rem;
+    color: #6b7884;
+  }
+
+  /* --- フッター情報 --- */
+  .landing-footer {
+    text-align: center;
+    padding: 1rem 0 2rem;
+    font-size: 0.82rem;
+    color: #8899a6;
+    border-top: 1px solid #e8ecf0;
+  }
+
+  .landing-footer a {
+    color: #3b82f6;
     text-decoration: none;
   }
 
-  .language-card strong {
-    display: block;
-    margin-bottom: 0.35rem;
-    font-size: 1.2rem;
+  .landing-footer a:hover {
+    text-decoration: underline;
   }
 
-  @media (max-width: 640px) {
-    .language-home {
-      margin-top: 1.5rem;
+  /* --- レスポンシブ --- */
+  @media (max-width: 600px) {
+    .landing-hero {
+      padding: 2rem 1.5rem;
+      margin: 1.5rem 0 1.5rem;
+      border-radius: 12px;
     }
 
-    .language-home h1 {
-      font-size: 2rem;
+    .landing-name {
+      font-size: 1.7rem;
     }
 
-    .language-grid {
+    .landing-photo {
+      width: 80px;
+      height: 80px;
+    }
+
+    .lang-grid {
       grid-template-columns: 1fr;
-    }
-
-    .welcome-facts dl {
-      grid-template-columns: 1fr;
-      gap: 0.12rem;
     }
   }
 </style>
 
-<div class="language-home">
-  <h1>Welcome to my page</h1>
-  <p class="language-intro">
-    I am 王 森岭 (Senling Wang / オウ シンレイ). Please choose a language to enter the site.
-    <br>
-    王 森岭（Senling Wang / オウ シンレイ）のページへようこそ。表示言語を選択してください。
-  </p>
+<div class="landing-wrap">
 
-  <div class="welcome-facts">
-    <dl>
-      <dt>Degree</dt>
-      <dd>Ph.D. in Information Engineering, Kyushu Institute of Technology (2014)</dd>
-      <dt>Title</dt>
-      <dd>Lecturer</dd>
-      <dt>Affiliation</dt>
-      <dd>Graduate School of Science and Engineering, Ehime University</dd>
-    </dl>
+  <div class="landing-hero">
+    <img class="landing-photo" src="/assets/images/wang.jpg" alt="Senling Wang">
+    <h1 class="landing-name">Senling Wang</h1>
+    <p class="landing-name-sub">王 森岭 ／ オウ シンレイ</p>
+    <p class="landing-title">Ph.D. — Lecturer, Ehime University</p>
+    <p class="landing-tagline">
+      Graduate School of Science and Engineering<br>
+      Dependable Computing · IC Test & Diagnosis · AI Chip Reliability
+    </p>
+    <div class="landing-keywords">
+      <span>IC Testing</span>
+      <span>Chiplet Security</span>
+      <span>AI Chip</span>
+      <span>Functional Safety</span>
+      <span>Physical AI</span>
+    </div>
   </div>
 
-  <p class="brief-bio">
-    My research focuses on dependable computing, IC test and diagnosis, AI-chip reliability,
-    secure systems, and Physical AI robotics.
-  </p>
+  <div class="landing-choose">
+    <h2>Choose Language / 言語を選択</h2>
+    <p>Select a language to explore the full site</p>
+  </div>
 
-  <div class="language-grid">
-    <a class="language-card" href="/en/">
-      <strong>English</strong>
-      <span>Open the English version of the site.</span>
+  <div class="lang-grid">
+    <a class="lang-card" href="/en/">
+      <span class="lang-card-flag">🇬🇧</span>
+      <span class="lang-card-title">English</span>
+      <span class="lang-card-desc">Open the English version</span>
     </a>
-    <a class="language-card" href="/ja/">
-      <strong>日本語</strong>
-      <span>日本語版サイトを開きます。</span>
+    <a class="lang-card" href="/ja/">
+      <span class="lang-card-flag">🇯🇵</span>
+      <span class="lang-card-title">日本語</span>
+      <span class="lang-card-desc">日本語版サイトを開く</span>
     </a>
   </div>
+
+  <div class="landing-footer">
+    <a href="https://researchmap.jp/senling_wang_scholar">researchmap</a> ·
+    <a href="https://scholar.google.com/citations?user=uGmNX3kAAAAJ">Google Scholar</a> ·
+    <a href="mailto:ou.shinrei.dw@ehime-u.ac.jp">Email</a>
+  </div>
+
 </div>
