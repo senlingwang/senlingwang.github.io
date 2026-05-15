@@ -290,12 +290,10 @@ classes: wide
 
   <div class="lang-grid">
     <a class="lang-card" href="/en/">
-      <span class="lang-card-flag">EN</span>
       <span class="lang-card-title">English</span>
       <span class="lang-card-desc">Open the English version</span>
     </a>
     <a class="lang-card" href="/ja/">
-      <span class="lang-card-flag">🇯🇵</span>
       <span class="lang-card-title">日本語</span>
       <span class="lang-card-desc">日本語版サイトを開く</span>
     </a>
