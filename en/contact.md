@@ -13,6 +13,7 @@ permalink: /en/contact/
 **Specialization**: Dependable VLSI Systems, IC Testing, Semiconductor Reliability
 
 ### Email
+**wang@cs.ehime-u.ac.jp**
 **ou.shinrei.dw@ehime-u.ac.jp**
 
 ### Office Location
