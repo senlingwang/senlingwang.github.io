@@ -290,7 +290,7 @@ classes: wide
 
   <div class="lang-grid">
     <a class="lang-card" href="/en/">
-      <span class="lang-card-flag">🇬🇧</span>
+      <span class="lang-card-flag">EN</span>
       <span class="lang-card-title">English</span>
       <span class="lang-card-desc">Open the English version</span>
     </a>
