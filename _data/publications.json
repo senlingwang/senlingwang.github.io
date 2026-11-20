@@ -1,10 +1,22 @@
 {
   "journals": [
     {
+      "title": "A Configurable Delay Transient-Effect Ring Oscillator PUF against modeling attacks",
+      "authors": "Tianming Ni, Huan Liu, Mu Nie, Senling Wang, Jingchang Bian",
+      "citation": "Integration, Vol. 110, Article 102781 (2026). DOI: 10.1016/j.vlsi.2026.102781",
+      "url": "https://doi.org/10.1016/j.vlsi.2026.102781"
+    },
+    {
       "title": "Functional Fault Impact Probability Prediction using Spatio-Temporal Graph Convolutional Network",
       "authors": "Shaoqi Wei, Senling Wang, Hiroshi Kai, Yoshinobu Higami, Ruijun Ma, Tianming Ni, Xiaoqing Wen, Hiroshi Takahashi",
       "citation": "ACM Trans. Des. Autom. Electron. Syst. 31, 5, Article No.:102 (2026) pp. 1–24, https://doi.org/10.1145/3798106",
       "url": "https://doi.org/10.1145/3798106"
+    },
+    {
+      "title": "Dynamic Meta-Learning with Attentional Prototypes for Few-Shot Wafer Defect Recognition",
+      "authors": "Tianming Ni, Meifang Yu, Xiaofei Chen, Huaguo Liang, Senling Wang, Muyang Cheng, Mu Nie",
+      "citation": "Journal of Electronic Testing: Theory and Applications, Vol. 42, No. 2, pp. 151–165 (2026). DOI: 10.1007/s10836-026-06224-7",
+      "url": "https://doi.org/10.1007/s10836-026-06224-7"
     },
     {
       "title": "A lightweight general PUF framework for resisting machine learning attacks",
@@ -117,6 +129,90 @@
   ],
   "conferences": [
     {
+      "title": "BMNN-Based Local Filters for Reducing External Computation in MRP-Based Image Classification",
+      "authors": "Kenta Sasagawa, Senling Wang, Hiroshi Kai, Yoshinobu Higami, Hiroshi Takahashi, Hiroyuki Yotsuyanagi",
+      "citation": "14th International Conference on Intelligent Systems and Embedded Design (ISED 2026), scheduled for Dec. 2026 (accepted; in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/55063906"
+    },
+    {
+      "title": "Hi-SDSI: Software-Defined Policy Management with Hierarchical Authentication for Secure Test Access in Chiplet Systems",
+      "authors": "Hisashi Okamoto, Senling Wang, Hiroshi Kai, Hiroyuki Yotsuyanagi, Yoshinobu Higami, Tianming Ni, Erik Larsson, Hiroshi Takahashi, Xiaoqing Wen",
+      "citation": "IEEE 35th Asian Test Symposium (ATS 2026), scheduled for Dec. 2026 (accepted; in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/55063873"
+    },
+    {
+      "title": "Performance Evaluation of SAS-L2-Based One-Time Authentication Protocol for MQTT with RTT-Based Time Estimation",
+      "authors": "Hiroki Nishiwaki, Senling Wang, Shinji Norimatsu, Hiroshi Kai, Hiroshi Takahashi, Akihiro Shimizu",
+      "citation": "2026 IEEE/IEIE International Conference on Consumer Electronics-Asia (ICCE-Asia), Oct. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/55063893"
+    },
+    {
+      "title": "Toward an Optimized FPGA-Implemented SOP System for High-Throughput Pattern Matching",
+      "authors": "Keita Takahashi, Senling Wang, Ryusuke Yamamoto, Mitsuaki Matsumoto, Hiroshi Kai, Shuichi Kameyama, Hiroshi Takahashi, Xiaoqing Wen, Katsumi Inoue",
+      "citation": "IEEE Asia Pacific Conference on Circuits and Systems (APCCAS 2026), Oct. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54407599"
+    },
+    {
+      "title": "Incremental Wafer Yield Prediction via Spatially-Aware Imputation and Knowledge Distillation",
+      "authors": "Mu Nie, Muyang Cheng, Qianqian Chao, Jingchang Bian, Senling Wang, Xiaoqing Wen, Tianming Ni",
+      "citation": "IEEE International Test Conference in Asia (ITC-Asia 2026), Aug. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54223768"
+    },
+    {
+      "title": "Inter-Layer Data-Path Fault Sensitivity Analysis of FPGA-Implemented Binarized Neural Networks",
+      "authors": "Mitsuaki Matsumoto, Senling Wang, Keisuke Kamita, Keita Takahashi, Hiroshi Kai, Yoshinobu Higami, Hiroyuki Yotsuyanagi, Xiaoqing Wen, Hiroshi Takahashi",
+      "citation": "IEEE International Test Conference in Asia (ITC-Asia 2026), Aug. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54223755"
+    },
+    {
+      "title": "A Structural Analysis Framework for Interpreting Test Point Selection Methods",
+      "authors": "Senling Wang, Junqi Chen, Shoya Sasaki, Hiroshi Kai, Yoshinobu Higami, Hiroyuki Yotsuyanagi, Tianming Ni, Xiaoqing Wen, Hiroshi Takahashi",
+      "citation": "IEEE International Test Conference in Asia (ITC-Asia 2026), Aug. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54222784"
+    },
+    {
+      "title": "Env2FSA: Automatic Symbolic Environment Modeling for Behavioral Controller Verification",
+      "authors": "Tomoki Kuzuhara, Senling Wang, Kerun Li, Shintaro Ono, Hiroshi Kai, Hiroshi Takahashi",
+      "citation": "International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC 2026), Jul. 2026 (accepted).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54222779"
+    },
+    {
+      "title": "Language-Driven Heterogeneous Multi-Robot Task Planning with Structured Experience Memory",
+      "authors": "Jingjing Shen, Shaoqi Wei, Mitsuaki Matsumoto, Senling Wang, Hiroshi Takahashi",
+      "citation": "International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC 2026), Jul. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54222774"
+    },
+    {
+      "title": "Real-to-Sim Scene Generation from a Single Photograph for Robot Simulation",
+      "authors": "Kerun Li, Senling Wang, Shintaro Ono, Tomoki Kuzuhara, Hiroshi Kai, Hiroshi Takahashi",
+      "citation": "International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC 2026), Jul. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54222767"
+    },
+    {
+      "title": "Comparative Analysis of Indoor Reconstruction Methods for Digital Twin Generation",
+      "authors": "Shintaro Ono, Kerun Li, Tomoki Kuzuhara, Koji Kinoshita, Senling Wang, Hiroshi Takahashi",
+      "citation": "International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC 2026), Jul. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54222761"
+    },
+    {
+      "title": "Delay Fault Testing of TSVs in 3D ICs using Segmented Delay Line in Boundary Scan with Embedded TDC",
+      "authors": "Kota Yamane, Hiroyuki Yotsuyanagi, Masaki Hashizume, Senling Wang, Yoshinobu Higami, Hiroshi Kai, Hiroshi Takahashi, Tianming Ni, Xiaoqing Wen",
+      "citation": "International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC 2026), Jul. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54222751"
+    },
+    {
+      "title": "Additional Diagnostic Test Pattern Generation for Deducing Stuck-at Faults and Bridging Faults",
+      "authors": "Yoshinobu Higami, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal K. Saluja",
+      "citation": "International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC 2026), Jul. 2026 (in press).",
+      "url": "https://researchmap.jp/senling_wang_scholar/published_papers/54222744"
+    },
+    {
+      "title": "Binary Splitting Test Generation for a Pattern Matching Accelerator with In-Memory-Processing Architecture",
+      "authors": "Ryusuke Yamamoto, Tatsuya Nishikawa, Keisuke Kamita, Senling Wang, Shuichi Kameyama, Hiroshi Takahashi, Hiroshi Kai, Katsumi Inoue",
+      "citation": "The 8th International Conference on Electronics, Communications and Control Engineering (ICECC 2025), Lecture Notes in Electrical Engineering, Vol. 1490, pp. 51–61 (2026). DOI: 10.1007/978-981-95-2820-2_5",
+      "url": "https://doi.org/10.1007/978-981-95-2820-2_5"
+    },
+    {
       "title": "Software-Defined Secure Island for Testing Chiplet Systems",
       "authors": "Hisashi Okamoto, Senling Wang, Hiroshi Kai, Hiroshi Takahashi, Yoshinobu Higami, Hiroyuki Yotsuyanagi, Tianming Ni, Tai Song, Xiaoqing Wen",
       "citation": "IEEE 34th Asian Test Symposium (ATS) (2025), pp. 61–66, doi: 10.1109/ATS66998.2025.00019.",
@@ -139,12 +235,6 @@
       "authors": "Yoshinobu Higami, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal K. Saluja",
       "citation": "2025 International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC) (2025), pp. 1–6, DOI: 10.1109/ITC-CSCC66376.2025.11137748.",
       "url": "https://doi.org/10.1109/ITC-CSCC66376.2025.11137748"
-    },
-    {
-      "title": "Binary Splitting Test Generation for a Pattern Matching Accelerator with In-Memory-Processing Architecture",
-      "authors": "Ryusuke Yamamoto, Tatsuya Nishikawa, Keisuke Kamita, Senling Wang, Shuichi Kameyama, Hiroshi Takahashi, Hiroshi Kai, Katsumi Inoue",
-      "citation": "The 8th International Conference on Electronics, Communications and Control Engineering(ICECC2025) Lecture Notes in Electrical Engineering, vol 1490. Springer, Singapore. (2025) pp 51–61, DOI: 10.1007/978-981-95-2820-2_5",
-      "url": "https://doi.org/10.1007/978-981-95-2820-2_5"
     },
     {
       "title": "A Lightweight and Secure One-Time RFID Authentication Protocol Based on SAS-L2",

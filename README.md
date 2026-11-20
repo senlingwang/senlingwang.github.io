@@ -36,7 +36,7 @@ Dr. Senling Wang is an **Associate Professor** at Ehime University, Graduate Sch
 ## Key Content
 
 ### Publications
-- **19 journal papers, 43 international conference papers, and 27 domestic conference/technical-report papers** in the detailed publication list
+- **21 journal papers, 56 international conference papers, and 27 domestic conference/technical-report papers** in the detailed publication list (including accepted and in-press papers)
 - Covers IC testing, fault diagnosis, automotive safety, AI-chip design, and secure systems
 
 ### Teaching
@@ -69,7 +69,7 @@ The site will be available at `http://localhost:4000/`.
 
 ## Data Source
 
-The bilingual publication pages render the 89 records in `_data/publications.json`. The industry joint-research tables on the project pages list research topics and periods from the October 2026 promotion review record.
+The bilingual publication pages render the 104 records in `_data/publications.json`. The industry joint-research tables on the project pages list research topics and periods from the October 2026 promotion review record.
 
 ## Updates
 

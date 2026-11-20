@@ -431,7 +431,7 @@ classes: wide
       <span class="hp-nav-icon">📄</span>
       <div class="hp-nav-body">
         <h3>業績一覧</h3>
-        <p>論文誌19編・国際会議43編・国内発表等27編</p>
+        <p>論文誌{{ site.data.publications.journals | size }}編・国際会議{{ site.data.publications.conferences | size }}編・国内発表等{{ site.data.publications.domestic | size }}編</p>
       </div>
     </a>
     <a class="hp-nav-card" href="/ja/projects/">

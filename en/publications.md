@@ -5,8 +5,12 @@ permalink: /en/publications/
 
 <p class="text-right"><strong>English</strong> | <a href="/ja/publications/">Japanese</a></p>
 
+{% assign journal_count = site.data.publications.journals | size %}
+{% assign conference_count = site.data.publications.conferences | size %}
+{% assign domestic_count = site.data.publications.domestic | size %}
+
 ## Overview
-My publication list comprises **19 journal papers, 43 peer-reviewed international conference papers, and 27 domestic conference and technical-report papers** (89 in total). My research covers dependable VLSI testing, automotive functional safety, chiplet systems, AI-chip reliability, and secure design.
+This list contains **{{ journal_count }} journal papers, {{ conference_count }} peer-reviewed international conference papers, and {{ domestic_count }} domestic conference and technical-report papers** ({{ journal_count | plus: conference_count | plus: domestic_count }} records in total). It includes accepted and in-press papers; the December 2026 presentations are forthcoming. My research covers dependable VLSI testing, automotive functional safety, chiplet systems, AI-chip reliability, and secure design.
 
 ---
 
@@ -39,7 +43,7 @@ My publication list comprises **19 journal papers, 43 peer-reviewed internationa
 
 ---
 
-## Journal Articles (19)
+## Journal Articles ({{ journal_count }})
 
 <ol class="publication-list">
 {% for paper in site.data.publications.journals %}
@@ -47,15 +51,15 @@ My publication list comprises **19 journal papers, 43 peer-reviewed internationa
 {% endfor %}
 </ol>
 
-## Peer-Reviewed International Conference Papers (43)
+## Peer-Reviewed International Conference Papers ({{ conference_count }})
 
 <ol class="publication-list">
 {% for paper in site.data.publications.conferences %}
-<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}{% if paper.url %}<br><a href="{{ paper.url | escape }}">DOI</a>{% endif %}</li>
+<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}{% if paper.url %}<br><a href="{{ paper.url | escape }}">{% if paper.url contains 'doi.org' %}DOI{% else %}Publication record{% endif %}</a>{% endif %}</li>
 {% endfor %}
 </ol>
 
-## Domestic Conference Papers and Technical Reports (27)
+## Domestic Conference Papers and Technical Reports ({{ domestic_count }})
 
 <ol class="publication-list">
 {% for paper in site.data.publications.domestic %}

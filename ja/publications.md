@@ -5,8 +5,12 @@ permalink: /ja/publications/
 
 <p class="text-right"><a href="/en/publications/">English</a> | <strong>日本語</strong></p>
 
+{% assign journal_count = site.data.publications.journals | size %}
+{% assign conference_count = site.data.publications.conferences | size %}
+{% assign domestic_count = site.data.publications.domestic | size %}
+
 ## 概要
-論文誌・学会誌19編、査読付き国際会議論文43編、国内会議・研究会論文27編の計89編を発表しています。研究分野は、ディペンダブルVLSIテスト、車載機能安全、チップレットシステム、AIチップ信頼性、セキュア設計です。
+論文誌・学会誌{{ journal_count }}編、査読付き国際会議論文{{ conference_count }}編、国内会議・研究会論文{{ domestic_count }}編の計{{ journal_count | plus: conference_count | plus: domestic_count }}件を掲載しています。採択済み・印刷中の論文も含み、2026年12月の発表予定分は未発表です。研究分野は、ディペンダブルVLSIテスト、車載機能安全、チップレットシステム、AIチップ信頼性、セキュア設計です。
 
 ---
 
@@ -39,7 +43,7 @@ permalink: /ja/publications/
 
 ---
 
-## 論文誌・学会誌（19編）
+## 論文誌・学会誌（{{ journal_count }}編）
 
 <ol class="publication-list">
 {% for paper in site.data.publications.journals %}
@@ -47,15 +51,15 @@ permalink: /ja/publications/
 {% endfor %}
 </ol>
 
-## 査読付き国際会議論文（43編）
+## 査読付き国際会議論文（{{ conference_count }}編）
 
 <ol class="publication-list">
 {% for paper in site.data.publications.conferences %}
-<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}{% if paper.url %}<br><a href="{{ paper.url | escape }}">DOI</a>{% endif %}</li>
+<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}{% if paper.url %}<br><a href="{{ paper.url | escape }}">{% if paper.url contains 'doi.org' %}DOI{% else %}書誌情報{% endif %}</a>{% endif %}</li>
 {% endfor %}
 </ol>
 
-## 国内会議・研究会論文（27編）
+## 国内会議・研究会論文（{{ domestic_count }}編）
 
 <ol class="publication-list">
 {% for paper in site.data.publications.domestic %}

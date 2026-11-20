@@ -431,7 +431,7 @@ classes: wide
       <span class="hp-nav-icon">📄</span>
       <div class="hp-nav-body">
         <h3>Publications</h3>
-        <p>19 journal, 43 international conference, and 27 domestic papers</p>
+        <p>{{ site.data.publications.journals | size }} journal, {{ site.data.publications.conferences | size }} international conference, and {{ site.data.publications.domestic | size }} domestic papers</p>
       </div>
     </a>
     <a class="hp-nav-card" href="/en/projects/">
