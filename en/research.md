@@ -6,7 +6,7 @@ permalink: /en/research/
 <p class="text-right"><strong>English</strong> | <a href="/ja/research/">Japanese</a></p>
 
 ## Research Vision
-My research focuses on building **dependable and intelligent systems** spanning compute, chip, and robot. The goal is to support safety, reliability, and security in a super-smart society through IC testing, system-level dependability, secure design, and AI-chip reliability.
+My research focuses on building **dependable and intelligent systems** spanning compute, chip, and robot. Alongside IC testing, system-level dependability, secure design, and AI-chip reliability, I work on digital twins and Physical AI for robots that adapt to changing sites.
 
 ---
 
@@ -58,6 +58,20 @@ My research focuses on building **dependable and intelligent systems** spanning 
 - Set Operation Processors (SOP)
 - Edge AI reliability and test methods
 - Neural network implementation on resource-constrained devices
+
+---
+
+## <a id="physicalai"></a>Physical AI & Digital Twins
+
+This work helps robots understand changing industrial sites, plan tasks, and act in the physical world. We generate simulation-ready 3D scenes from photographs and point clouds, then return field observations to a digital twin to inform later actions.
+
+### Core focus
+- Real-to-Sim reconstruction of equipment and environments
+- Digital twins that distinguish static geometry from changing object states
+- AI-agent planning and task allocation across multiple robots
+- Sim-to-Real validation and planning informed by field observations
+
+See [Hot Topics](/en/hot-topics/) for the current project and its experiments.
 
 ---
 

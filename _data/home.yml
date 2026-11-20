@@ -11,6 +11,6 @@ pillars:
     btn_class: "btn--primary"
   - title: "Physical AI Robotics"
     excerpt: "Generative-AI-driven robotics with real-world deployment and verification."
-    url: "/research/#physicalai"
+    url: "/en/hot-topics/"
     btn_label: "Learn more"
     btn_class: "btn--primary"

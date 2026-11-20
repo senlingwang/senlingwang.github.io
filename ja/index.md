@@ -194,6 +194,7 @@ classes: wide
   .hp-nav-card:nth-child(3)::after { background: linear-gradient(90deg, #059669, #34d399); }
   .hp-nav-card:nth-child(4)::after { background: linear-gradient(90deg, #d97706, #fbbf24); }
   .hp-nav-card:nth-child(5)::after { background: linear-gradient(90deg, #dc2626, #f87171); }
+  .hp-nav-card:nth-child(6)::after { background: linear-gradient(90deg, #0891b2, #67e8f9); }
 
   .hp-nav-card:hover {
     border-color: #93b4cf;
@@ -405,6 +406,7 @@ classes: wide
     <span>車載機能安全</span>
     <span>ディペンダブルコンピューティング</span>
     <span>Physical AI</span>
+    <span>デジタルツイン</span>
     <span>JTAGセキュリティ</span>
     <span>低消費電力BIST</span>
   </div>
@@ -416,6 +418,13 @@ classes: wide
       <div class="hp-nav-body">
         <h3>研究テーマ</h3>
         <p>ICテスト、チップレットセキュリティ、AIチップ信頼性、車載機能安全</p>
+      </div>
+    </a>
+    <a class="hp-nav-card" href="/ja/hot-topics/">
+      <span class="hp-nav-icon">🤖</span>
+      <div class="hp-nav-body">
+        <h3>Hot Topics</h3>
+        <p>デジタルツインとフィジカルAIの進行中プロジェクト</p>
       </div>
     </a>
     <a class="hp-nav-card" href="/ja/publications/">
@@ -452,7 +461,7 @@ classes: wide
   <section class="hp-section">
     <h2 class="hp-section-title">自己紹介</h2>
     <div class="hp-about">
-      <p>安全性・信頼性・セキュリティを備えた<strong>ディペンダブルで知的なシステム</strong>の実現を目指し、半導体テスト、システムレベル信頼性、セキュア設計、AIチップ信頼性に関する研究を行っています。</p>
+      <p>安全性・信頼性・セキュリティを備えた<strong>ディペンダブルで知的なシステム</strong>の実現を目指し、半導体テスト、セキュア設計、AIチップ信頼性、フィジカルAI、デジタルツインに関する研究を行っています。</p>
       <p>2014年に九州工業大学で博士（情報工学）を取得。現在は愛媛大学にて、研究・教育・産学連携・国際学術活動に従事しています。</p>
     </div>
   </section>
@@ -520,6 +529,7 @@ classes: wide
       <a class="hp-link" href="https://scholar.google.com/citations?user=uGmNX3kAAAAJ">🔍 Google Scholar</a>
       <a class="hp-link" href="https://nrid.nii.ac.jp/ja/nrid/1000090735581/">🏛️ KAKEN (NII)</a>
       <a class="hp-link" href="http://larissa.cs.ehime-u.ac.jp/">🖥️ 研究室サイト</a>
+      <a class="hp-link" href="https://ehimetakahashilab.github.io/Computer-System-Lab.io/index.html">🤖 フィジカルAI研究サイト</a>
     </div>
   </section>
 

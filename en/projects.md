@@ -6,7 +6,7 @@ permalink: /en/projects/
 <p class="text-right"><strong>English</strong> | <a href="/ja/projects/">Japanese</a></p>
 
 ## Projects & Funded Research
-My research has been supported through JSPS KAKENHI, MEXT programs, international collaborative research, and industry partnerships. The projects focus on dependable systems, semiconductor test, chiplet reliability, and AI-chip reliability.
+My research has been supported through JSPS KAKENHI, MEXT programs, international collaborative research, and industry partnerships. The projects cover dependable systems, semiconductor test, chiplet and AI-chip reliability, Physical AI, and digital twins.
 
 ---
 
@@ -55,6 +55,8 @@ Research topics and periods are based on the promotion review record updated in 
 | ルネサスエレクトロニクス株式会社 | Research on reducing field-test execution time through multi-cycle testing | 2016–2019 |
 
 [Robot demo video from the Taiyo Yuden collaboration (YouTube)](https://youtu.be/zxKcb8hma6Q)
+
+See [Hot Topics](/en/hot-topics/) for the ongoing digital-twin and Physical AI project.
 
 ## Local Industry PBL
 - Imabari Shipbuilding

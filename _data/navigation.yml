@@ -1,6 +1,8 @@
 main:
   - title: "Research"
     url: /en/research/
+  - title: "Hot Topics"
+    url: /en/hot-topics/
   - title: "Publications"
     url: /en/publications/
   - title: "Projects"

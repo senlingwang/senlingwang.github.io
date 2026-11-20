@@ -25,7 +25,9 @@ Matsuyama, Ehime Prefecture 790-8577, Japan
 
 ### Research Laboratory
 **Computing Systems Laboratory**  
-研究分野: ディペンダブルシステム、VLSIテスト、AIチップ信頼性、セキュア設計
+研究分野: ディペンダブルシステム、VLSIテスト、AIチップ信頼性、セキュア設計、フィジカルAI、デジタルツイン
+
+[進行中の研究（Hot Topics）](/ja/hot-topics/) · [プロジェクト公式サイト](https://ehimetakahashilab.github.io/Computer-System-Lab.io/index.html)
 
 ---
 

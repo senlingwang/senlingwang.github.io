@@ -51,6 +51,10 @@ Dr. Senling Wang is an **Associate Professor** at Ehime University, Graduate Sch
 - Chiplet system reliability and security
 - Lightweight authentication protocols
 - Memory-based AI accelerators
+- Physical AI robotics and digital twins for changing industrial sites
+
+### Ongoing Project
+- [Hot Topics](https://senlingwang.github.io/en/hot-topics/) introduces the Digital Twin Physical AI Robotics project and links to its [dedicated research site](https://ehimetakahashilab.github.io/Computer-System-Lab.io/index.html).
 
 ## Getting Started
 

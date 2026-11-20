@@ -194,6 +194,7 @@ classes: wide
   .hp-nav-card:nth-child(3)::after { background: linear-gradient(90deg, #059669, #34d399); }
   .hp-nav-card:nth-child(4)::after { background: linear-gradient(90deg, #d97706, #fbbf24); }
   .hp-nav-card:nth-child(5)::after { background: linear-gradient(90deg, #dc2626, #f87171); }
+  .hp-nav-card:nth-child(6)::after { background: linear-gradient(90deg, #0891b2, #67e8f9); }
 
   .hp-nav-card:hover {
     border-color: #93b4cf;
@@ -405,6 +406,7 @@ classes: wide
     <span>Functional Safety</span>
     <span>Dependable Computing</span>
     <span>Physical AI</span>
+    <span>Digital Twins</span>
     <span>JTAG Security</span>
     <span>Low-power BIST</span>
   </div>
@@ -416,6 +418,13 @@ classes: wide
       <div class="hp-nav-body">
         <h3>Research</h3>
         <p>IC testing, chiplet security, AI chip reliability, functional safety</p>
+      </div>
+    </a>
+    <a class="hp-nav-card" href="/en/hot-topics/">
+      <span class="hp-nav-icon">🤖</span>
+      <div class="hp-nav-body">
+        <h3>Hot Topics</h3>
+        <p>Ongoing digital-twin and Physical AI robotics research</p>
       </div>
     </a>
     <a class="hp-nav-card" href="/en/publications/">
@@ -452,7 +461,7 @@ classes: wide
   <section class="hp-section">
     <h2 class="hp-section-title">About</h2>
     <div class="hp-about">
-      <p>I am a researcher at Ehime University focusing on <strong>dependable and intelligent systems</strong> for safety, reliability, and security. My work bridges semiconductor testing, system-level dependability, secure IC design, and AI-chip reliability — contributing to the foundation of a safe and sustainable society.</p>
+      <p>I am a researcher at Ehime University focusing on <strong>dependable and intelligent systems</strong> for safety, reliability, and security. My work spans semiconductor testing, secure IC design, AI-chip reliability, Physical AI, and digital twins.</p>
       <p>I received my Ph.D. in Information Engineering from Kyushu Institute of Technology (2014), and actively engage in research, education, industry partnerships, and international academic collaboration.</p>
     </div>
   </section>
@@ -520,6 +529,7 @@ classes: wide
       <a class="hp-link" href="https://scholar.google.com/citations?user=uGmNX3kAAAAJ">🔍 Google Scholar</a>
       <a class="hp-link" href="https://nrid.nii.ac.jp/ja/nrid/1000090735581/">🏛️ KAKEN (NII)</a>
       <a class="hp-link" href="http://larissa.cs.ehime-u.ac.jp/">🖥️ Lab Website</a>
+      <a class="hp-link" href="https://ehimetakahashilab.github.io/Computer-System-Lab.io/index.html">🤖 Physical AI Project Site</a>
     </div>
   </section>
 

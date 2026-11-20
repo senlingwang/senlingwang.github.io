@@ -280,6 +280,7 @@ classes: wide
       <span>AI Chip</span>
       <span>Functional Safety</span>
       <span>Physical AI</span>
+      <span>Digital Twins</span>
     </div>
   </div>
 

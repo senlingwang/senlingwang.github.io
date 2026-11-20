@@ -1,5 +1,5 @@
 title: "Welcome to Dr. Senling Wang's Home"
-description: "Dependable Computing, IC Test & Diagnosis, AI Chip Reliability, Physical AI Robotics"
+description: "Dependable Computing, IC Test & Diagnosis, AI Chip Reliability, Digital Twins, Physical AI Robotics"
 url: "https://senlingwang.github.io"
 baseurl: ""
 
@@ -13,7 +13,7 @@ locale: "ja-JP"
 author:
   name: "Senling Wang"
   avatar: "/assets/images/wang.jpg"
-  bio: "Associate Professor, Ehime University. Research: IC test/diagnosis, dependable systems, AI chip reliability, and Physical AI robotics."
+  bio: "Associate Professor, Ehime University. Research: IC test/diagnosis, dependable systems, AI chip reliability, digital twins, and Physical AI robotics."
   location: "Ehime, Japan"
   links:
     - label: "Lab"

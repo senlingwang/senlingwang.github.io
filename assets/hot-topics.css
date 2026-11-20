@@ -1,0 +1,11 @@
+.hot-topic-hero { margin: 1rem 0 2rem; padding: 2rem; border-radius: 16px; background: linear-gradient(135deg, #172846, #15566a); color: #fff; }
+.hot-topic-hero h2 { margin: 0.5rem 0 0.8rem; color: #fff; }
+.hot-topic-hero p { max-width: 45rem; color: #f0f7fa; line-height: 1.7; }
+.hot-topic-hero .btn { background: #fff; color: #173c58; }
+.hot-topic-hero .btn:hover { background: #e8f4fb; color: #173c58; }
+.hot-topic-eyebrow { color: #bdeefa; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; }
+.hot-topic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.2rem 0 2rem; }
+.hot-topic-card { padding: 1.2rem; border: 1px solid #d9e4ec; border-radius: 12px; background: #f8fbfd; }
+.hot-topic-card h3 { margin: 0 0 0.55rem; font-size: 1.05rem; }
+.hot-topic-card p { margin: 0; line-height: 1.6; }
+@media (max-width: 700px) { .hot-topic-grid { grid-template-columns: 1fr; } }
