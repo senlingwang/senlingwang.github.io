@@ -17,14 +17,17 @@ Dr. Senling Wang is a **Lecturer** at Ehime University, Graduate School of Scien
 ```
 ├── index.md                 # Home page with biography & highlights
 ├── research.md              # Detailed research areas
-├── publications.md          # Complete publication list (60+ papers)
+├── ja/publications.md       # Japanese publication page
+├── en/publications.md       # English publication page
 ├── teaching.md              # Teaching courses & mentoring
-├── grants.md                # Funded research & collaboration programs
+├── ja/projects.md           # Japanese research funding and joint projects
+├── en/projects.md           # English research funding and joint projects
 ├── contact.md               # Contact information
 ├── _config.yml              # Jekyll site configuration
 ├── _data/
 │   ├── home.yml             # Homepage content
-│   └── navigation.yml       # Site navigation menu
+│   ├── navigation.yml       # Site navigation menu
+│   └── publications.json    # Detailed publication records
 ├── assets/
 │   └── images/              # Images and media
 └── rawdata/                 # Source academic documents
@@ -33,7 +36,7 @@ Dr. Senling Wang is a **Lecturer** at Ehime University, Graduate School of Scien
 ## Key Content
 
 ### Publications
-- **60+ peer-reviewed papers** in top-tier journals (IEEE, ACM, IEICE) and international conferences (ATS, ITC-CSCC, ETS, ICECC)
+- **19 journal papers, 43 international conference papers, and 27 domestic conference/technical-report papers** in the detailed publication list
 - Covers IC testing, fault diagnosis, automotive safety, AI-chip design, and secure systems
 
 ### Teaching
@@ -62,12 +65,7 @@ The site will be available at `http://localhost:4000/`.
 
 ## Data Source
 
-The website content is based on comprehensive academic profile data maintained in `rawdata/progress_data`, which includes:
-- Education and career history
-- Complete publication records
-- Teaching portfolio
-- Awards and recognition
-- Research project descriptions
+The bilingual publication pages render the 89 records in `_data/publications.json`. The industry joint-research tables on the project pages list research topics, periods, and funding amounts from the October 2026 promotion review record.
 
 ## Updates
 
@@ -77,7 +75,7 @@ This repository is actively maintained. Updates are made as:
 - Teaching assignments change
 - Career milestones are achieved
 
-Last updated: May 2026
+Last updated: November 2026
 
 ## Contact
 

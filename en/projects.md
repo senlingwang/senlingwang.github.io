@@ -11,9 +11,9 @@ My research has been supported through JSPS KAKENHI, MEXT programs, internationa
 ---
 
 ## JSPS KAKENHI
-The Japan Society for the Promotion of Science supports basic and applied research through KAKENHI. Detailed funding information is available through the KAKEN database.
+I have participated in nine JSPS KAKENHI projects, serving as principal investigator on three. Detailed information is available in the KAKEN database.
 
-**[KAKEN Database - Senling Wang](https://kaken.nii.ac.jp/en/search/)**
+**[Researcher profile (KAKEN)](https://nrid.nii.ac.jp/en/nrid/1000090735581/)**
 
 ---
 
@@ -34,24 +34,29 @@ The Japan Society for the Promotion of Science supports basic and applied resear
 ## International Collaborative Research
 
 ### JSPS-NSFC Bilateral Exchange Research
+- Period: 2023–2025
 - Focus: Lifecycle reliability of chiplet systems
 - Topics: 3D integration, quality monitoring, repair, secure testing, and thermal-aware layout optimization
 
 ---
 
-## Enterprise & Industry Partnerships
+## Industry Joint Research
 
-### Renesas Electronics
-- Automotive functional safety testing (ISO 26262 compliance)
-- Verification architecture for automotive microcontrollers close to production
-- Joint publications at IEEE and other venues
+Research periods and funding amounts are based on the promotion review record updated in October 2026. Amounts are reproduced as listed; the Mitsubishi Electric Software project specifies separate fiscal-year amounts.
 
-### Taiyo Yuden
-- LLM-driven intelligent robot research and development
-- Digital twin-based Physical AI platform construction and application development
-- [Robot demo video (YouTube)](https://youtu.be/zxKcb8hma6Q)
+| Company | Research topic | Period | Research funding |
+| --- | --- | --- | ---: |
+| 三浦工業MIRABOT株式会社 | Realizing an AI-driven smart factory using digital twins | 2026 | JPY 3,000,000 |
+| 三菱電機ソフトウエア株式会社 | Research on neural network algorithms implementable on FPGA | 2025–2026 | FY2025: JPY 1,800,000 / FY2026: JPY 1,990,000 |
+| 太陽誘電株式会社 | AI robot development in a digital twin | 2025–2026 | JPY 15,000,000 |
+| 太陽誘電株式会社 | Applications of generative AI to robots | 2024–2025 | JPY 5,000,000 |
+| AOT株式会社 | Implementation of 2D-SOP on FPGA | 2023–2025 | JPY 3,000,000 |
+| タカヤ株式会社 | Research on improving the efficiency of printed circuit board testing equipment | 2023–2026 | JPY 4,000,000 |
+| ルネサスエレクトロニクス株式会社 | Research on reducing field-test execution time through multi-cycle testing | 2016–2019 | JPY 5,000,000 |
 
-### Local Industry PBL
+[Robot demo video from the Taiyo Yuden collaboration (YouTube)](https://youtu.be/zxKcb8hma6Q)
+
+## Local Industry PBL
 - Imabari Shipbuilding
 - Miura Co., Ltd.
 - Local SMEs and IoT companies

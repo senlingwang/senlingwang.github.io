@@ -6,7 +6,7 @@ permalink: /ja/publications/
 <p class="text-right"><a href="/en/publications/">English</a> | <strong>日本語</strong></p>
 
 ## 概要
-IEEE、ACM、IEICEなどの主要ジャーナル・国際会議を中心に、査読付き論文を60件以上発表しています。研究分野は、ディペンダブルVLSIテスト、車載機能安全、チップレットシステム、AIチップ信頼性、セキュア設計です。
+論文誌・学会誌19編、査読付き国際会議論文43編、国内会議・研究会論文27編の計89編を発表しています。研究分野は、ディペンダブルVLSIテスト、車載機能安全、チップレットシステム、AIチップ信頼性、セキュア設計です。
 
 ---
 
@@ -22,8 +22,8 @@ IEEE、ACM、IEICEなどの主要ジャーナル・国際会議を中心に、�
    *Integration*, Vol. 104, September 2025, 102459  
    [DOI](https://doi.org/10.1016/j.vlsi.2025.102459)
 
-3. **SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism for IoT Systems**  
-   Hisashi Okamoto, Shaoqi Wei, Senling Wang, et al.  
+3. **SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism for IoT Systems with Diverse Devices**<br>
+   Hisashi Okamoto, Shaoqi Wei, Senling Wang, Hiroshi Kai, Hiroshi Takahashi, Yoshinobu Higami, Akihiro Shimizu, Tianming Ni, Xiaoqing Wen<br>
    *Journal of Communications*, Vol. 20, No. 2, 2025, pp. 214-220  
    [DOI](https://doi.org/10.12720/jcm.20.2.214-220)
 
@@ -39,25 +39,29 @@ IEEE、ACM、IEICEなどの主要ジャーナル・国際会議を中心に、�
 
 ---
 
-## 国際会議論文
+## 論文誌・学会誌（19編）
 
-### 2025-2026
-- **Software-Defined Secure Island for Testing Chiplet Systems**  
-  IEEE 34th Asian Test Symposium (ATS), 2025
-- **LLM-Design Platform for Thermal-Failure-Aware 3D Chiplet Layout**  
-  IEEE 34th Asian Test Symposium (ATS), 2025
-- **A Lightweight and Secure One-time Authentication Protocol for MQTT**  
-  IEEE/IEIE ICCE-Asia, 2025
-- **Binary Splitting Test Generation for Pattern Matching Accelerator**  
-  ICECC2025
+<ol class="publication-list">
+{% for paper in site.data.publications.journals %}
+<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}{% if paper.url %}<br><a href="{{ paper.url | escape }}">{% if paper.url contains 'doi.org' %}DOI{% else %}書誌情報{% endif %}</a>{% endif %}</li>
+{% endfor %}
+</ol>
 
-### 2023-2024
-- **Test Point Selection for Multi-Cycle Logic BIST using Multivariate Temporal-Spatial GCNs**  
-  ITC-Asia, 2024
-- **Deep-BMNN: Implementing Sparse Binary Neural Networks in Memory-Based Reconfigurable Processor**  
-  ITC-CSCC, 2024
-- **SASL-JTAG: A Light-Weight Dependable JTAG**  
-  IEEE DFTS, 2023
+## 査読付き国際会議論文（43編）
+
+<ol class="publication-list">
+{% for paper in site.data.publications.conferences %}
+<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}{% if paper.url %}<br><a href="{{ paper.url | escape }}">DOI</a>{% endif %}</li>
+{% endfor %}
+</ol>
+
+## 国内会議・研究会論文（27編）
+
+<ol class="publication-list">
+{% for paper in site.data.publications.domestic %}
+<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}</li>
+{% endfor %}
+</ol>
 
 ---
 
@@ -80,4 +84,3 @@ IEEE、ACM、IEICEなどの主要ジャーナル・国際会議を中心に、�
 - **WO2013-175998**: Fault Detection System, Generation Circuit and Program
 - IEEE、ACM、IEICEなどでの継続的な発表
 - 車載マイコン、半導体テスト、セキュアシステム分野への産業応用
-- 詳細なリストは rawdata の progress data を参照してください。

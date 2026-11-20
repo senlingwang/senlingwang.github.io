@@ -422,7 +422,7 @@ classes: wide
       <span class="hp-nav-icon">📄</span>
       <div class="hp-nav-body">
         <h3>業績一覧</h3>
-        <p>IEEE、ACM、IEICE等の査読付き論文60件以上</p>
+        <p>論文誌19編・国際会議43編・国内発表等27編</p>
       </div>
     </a>
     <a class="hp-nav-card" href="/ja/projects/">
@@ -462,23 +462,27 @@ classes: wide
     <h2 class="hp-section-title">受賞歴</h2>
     <div class="hp-awards">
       <div class="hp-award-item">
-        <span class="hp-award-year">2026</span>
+        <span class="hp-award-year">2025</span>
         <span class="hp-award-text">ICECC2025 Best Presentation Award</span>
       </div>
       <div class="hp-award-item">
-        <span class="hp-award-year">2025</span>
+        <span class="hp-award-year">2024</span>
         <span class="hp-award-text">愛媛大学 工学部 教育貢献賞</span>
-      </div>
-      <div class="hp-award-item">
-        <span class="hp-award-year">2023</span>
-        <span class="hp-award-text">IEEE CASS Shikoku Chapter Best Paper Award</span>
       </div>
       <div class="hp-award-item">
         <span class="hp-award-year">2021</span>
         <span class="hp-award-text">愛媛大学 情報工学科 教育貢献賞</span>
       </div>
       <div class="hp-award-item">
-        <span class="hp-award-year">2016</span>
+        <span class="hp-award-year">2020</span>
+        <span class="hp-award-text">IEEE CASS Shikoku Chapter Best Paper Award</span>
+      </div>
+      <div class="hp-award-item">
+        <span class="hp-award-year">2018</span>
+        <span class="hp-award-text">愛媛大学 情報工学科 教育貢献賞</span>
+      </div>
+      <div class="hp-award-item">
+        <span class="hp-award-year">2014</span>
         <span class="hp-award-text">IEEE SSCS Japan Chapter VDEC Design Award</span>
       </div>
     </div>
@@ -493,7 +497,7 @@ classes: wide
         <span class="hp-pub-venue">ACM Trans. Design Automation of Electronic Systems, 2026</span>
       </li>
       <li>
-        <span class="hp-pub-title">SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism</span><br>
+        <span class="hp-pub-title">SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism for IoT Systems with Diverse Devices</span><br>
         <span class="hp-pub-venue">Journal of Communications, Vol. 20, 2025</span>
       </li>
       <li>

@@ -6,7 +6,7 @@ permalink: /en/publications/
 <p class="text-right"><strong>English</strong> | <a href="/ja/publications/">Japanese</a></p>
 
 ## Overview
-I have published **60+ peer-reviewed papers** in journals and conferences including IEEE, ACM, IEICE, ATS, ITC-Asia, ITC-CSCC, ETS, and ICECC. My research covers dependable VLSI testing, automotive functional safety, chiplet systems, AI-chip reliability, and secure design.
+My publication list comprises **19 journal papers, 43 peer-reviewed international conference papers, and 27 domestic conference and technical-report papers** (89 in total). My research covers dependable VLSI testing, automotive functional safety, chiplet systems, AI-chip reliability, and secure design.
 
 ---
 
@@ -22,8 +22,8 @@ I have published **60+ peer-reviewed papers** in journals and conferences includ
    *Integration*, Vol. 104, September 2025, 102459  
    [DOI](https://doi.org/10.1016/j.vlsi.2025.102459)
 
-3. **SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism for IoT Systems**  
-   Hisashi Okamoto, Shaoqi Wei, Senling Wang, et al.  
+3. **SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism for IoT Systems with Diverse Devices**<br>
+   Hisashi Okamoto, Shaoqi Wei, Senling Wang, Hiroshi Kai, Hiroshi Takahashi, Yoshinobu Higami, Akihiro Shimizu, Tianming Ni, Xiaoqing Wen<br>
    *Journal of Communications*, Vol. 20, No. 2, 2025, pp. 214-220  
    [DOI](https://doi.org/10.12720/jcm.20.2.214-220)
 
@@ -39,25 +39,29 @@ I have published **60+ peer-reviewed papers** in journals and conferences includ
 
 ---
 
-## International Conference Proceedings
+## Journal Articles (19)
 
-### 2025-2026
-- **Software-Defined Secure Island for Testing Chiplet Systems**  
-  IEEE 34th Asian Test Symposium (ATS), 2025
-- **LLM-Design Platform for Thermal-Failure-Aware 3D Chiplet Layout**  
-  IEEE 34th Asian Test Symposium (ATS), 2025
-- **A Lightweight and Secure One-time Authentication Protocol for MQTT**  
-  IEEE/IEIE ICCE-Asia, 2025
-- **Binary Splitting Test Generation for Pattern Matching Accelerator**  
-  ICECC2025
+<ol class="publication-list">
+{% for paper in site.data.publications.journals %}
+<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}{% if paper.url %}<br><a href="{{ paper.url | escape }}">{% if paper.url contains 'doi.org' %}DOI{% else %}Publication record{% endif %}</a>{% endif %}</li>
+{% endfor %}
+</ol>
 
-### 2023-2024
-- **Test Point Selection for Multi-Cycle Logic BIST using Multivariate Temporal-Spatial GCNs**  
-  ITC-Asia, 2024
-- **Deep-BMNN: Implementing Sparse Binary Neural Networks in Memory-Based Reconfigurable Processor**  
-  ITC-CSCC, 2024
-- **SASL-JTAG: A Light-Weight Dependable JTAG**  
-  IEEE DFTS, 2023
+## Peer-Reviewed International Conference Papers (43)
+
+<ol class="publication-list">
+{% for paper in site.data.publications.conferences %}
+<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}{% if paper.url %}<br><a href="{{ paper.url | escape }}">DOI</a>{% endif %}</li>
+{% endfor %}
+</ol>
+
+## Domestic Conference Papers and Technical Reports (27)
+
+<ol class="publication-list">
+{% for paper in site.data.publications.domestic %}
+<li><strong>{{ paper.title | escape }}</strong><br>{{ paper.authors | escape }}<br>{{ paper.citation | escape }}</li>
+{% endfor %}
+</ol>
 
 ---
 

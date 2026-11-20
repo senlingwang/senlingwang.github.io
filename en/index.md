@@ -422,7 +422,7 @@ classes: wide
       <span class="hp-nav-icon">📄</span>
       <div class="hp-nav-body">
         <h3>Publications</h3>
-        <p>60+ peer-reviewed papers in IEEE, ACM, IEICE venues</p>
+        <p>19 journal, 43 international conference, and 27 domestic papers</p>
       </div>
     </a>
     <a class="hp-nav-card" href="/en/projects/">
@@ -462,23 +462,27 @@ classes: wide
     <h2 class="hp-section-title">Awards & Recognition</h2>
     <div class="hp-awards">
       <div class="hp-award-item">
-        <span class="hp-award-year">2026</span>
+        <span class="hp-award-year">2025</span>
         <span class="hp-award-text">ICECC2025 Best Presentation Award</span>
       </div>
       <div class="hp-award-item">
-        <span class="hp-award-year">2025</span>
+        <span class="hp-award-year">2024</span>
         <span class="hp-award-text">Ehime University Faculty of Engineering Education Contribution Award</span>
-      </div>
-      <div class="hp-award-item">
-        <span class="hp-award-year">2023</span>
-        <span class="hp-award-text">IEEE CASS Shikoku Chapter Best Paper Award</span>
       </div>
       <div class="hp-award-item">
         <span class="hp-award-year">2021</span>
         <span class="hp-award-text">Ehime University Information Engineering Education Contribution Award</span>
       </div>
       <div class="hp-award-item">
-        <span class="hp-award-year">2016</span>
+        <span class="hp-award-year">2020</span>
+        <span class="hp-award-text">IEEE CASS Shikoku Chapter Best Paper Award</span>
+      </div>
+      <div class="hp-award-item">
+        <span class="hp-award-year">2018</span>
+        <span class="hp-award-text">Ehime University Information Engineering Education Contribution Award</span>
+      </div>
+      <div class="hp-award-item">
+        <span class="hp-award-year">2014</span>
         <span class="hp-award-text">IEEE SSCS Japan Chapter VDEC Design Award</span>
       </div>
     </div>
@@ -493,7 +497,7 @@ classes: wide
         <span class="hp-pub-venue">ACM Trans. Design Automation of Electronic Systems, 2026</span>
       </li>
       <li>
-        <span class="hp-pub-title">SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism</span><br>
+        <span class="hp-pub-title">SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism for IoT Systems with Diverse Devices</span><br>
         <span class="hp-pub-venue">Journal of Communications, Vol. 20, 2025</span>
       </li>
       <li>

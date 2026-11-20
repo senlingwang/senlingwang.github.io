@@ -1,0 +1,542 @@
+{
+  "journals": [
+    {
+      "title": "Functional Fault Impact Probability Prediction using Spatio-Temporal Graph Convolutional Network",
+      "authors": "Shaoqi Wei, Senling Wang, Hiroshi Kai, Yoshinobu Higami, Ruijun Ma, Tianming Ni, Xiaoqing Wen, Hiroshi Takahashi",
+      "citation": "ACM Trans. Des. Autom. Electron. Syst. 31, 5, Article No.:102 (2026) pp. 1–24, https://doi.org/10.1145/3798106",
+      "url": "https://doi.org/10.1145/3798106"
+    },
+    {
+      "title": "A lightweight general PUF framework for resisting machine learning attacks",
+      "authors": "Tianming Ni, Fei Li, Zhengfeng Huang, Aibin Yan, Senling Wang, Xiaoqing Wen, Mu Nie, Jingchang Bian",
+      "citation": "Integration, the VLSI Journal, Vol. 104 (2025) pp.1–10, https://doi.org/10.1016/j.vlsi.2025.102459",
+      "url": "https://doi.org/10.1016/j.vlsi.2025.102459"
+    },
+    {
+      "title": "A Response-Nonlinearized DEMUX-TDC PUF for Resistance Against Modeling Attacks and Secure Authentication Protocols",
+      "authors": "Tianming Ni, Hao Wu, Mu Nie, Aibin Yan, Senling Wang, Xiaoqing Wen, Jingchang Bian",
+      "citation": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems, Vol. 33, No. 10 (2025) pp. 2606-2619, DOI: 10.1109/TVLSI.2025.3575056.",
+      "url": "https://doi.org/10.1109/TVLSI.2025.3575056"
+    },
+    {
+      "title": "SASL-JTAG+: An Enhanced Lightweight and Secure JTAG Authentication Mechanism for IoT Systems with Diverse Devices",
+      "authors": "Hisashi Okamoto, Shaoqi Wei, Senling Wang, Hiroshi Kai, Hiroshi Takahashi, Yoshinobu Higami, Akihiro Shimizu, Tianming Ni, and Xiaoqing Wen",
+      "citation": "Journal of Communications, Vol. 20, No. 2 (2025) pp. 214–220, DOI:10.12720/jcm.20.2.214-220",
+      "url": "https://doi.org/10.12720/jcm.20.2.214-220"
+    },
+    {
+      "title": "Highly Defect Detectable and SEU-Resilient Robust Scan-Test-Aware Latch Design",
+      "authors": "Ruijun Ma, Stefan Holst, Hui Xu, Xiaoqing Wen, Senling Wang, Jiuqi Li",
+      "citation": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems, Vol. 33, No. 2 (2025) pp. 449–461, DOI: 10.1109/TVLSI.2024.3467089",
+      "url": "https://doi.org/10.1109/TVLSI.2024.3467089"
+    },
+    {
+      "title": "A Demultiplexer-based Dual-path Switching True Random Number Generator",
+      "authors": "Tianming Ni, Kejie Xu, Hao Wu, Senling Wang, Mu Nie",
+      "citation": "Microelectronics Journal, Vol. 151 (2024) pp. 1–9, DOI: 10.1016/j.mejo.2024.106363",
+      "url": "https://doi.org/10.1016/j.mejo.2024.106363"
+    },
+    {
+      "title": "3次元LSIにおける貫通シリコンビア(TSV)に対する故障検査法",
+      "authors": "王 森レイ, 高橋 寛",
+      "citation": "日本信頼性学会誌 Vol. 46, No. 3 (2024) pp.108–115, DOI: https://ndlsearch.ndl.go.jp/books/R000000004-I033575362",
+      "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I033575362"
+    },
+    {
+      "title": "A Low Area-Overhead and Low Delay Triple-Node-Upset Self-Recoverable Design Based on Stacked Transistors",
+      "authors": "Hui Xu, Jiuqi Li, Ruijun Ma, Huaguo Liang, Chaoming Liu, Senling Wang, Xiaoqing Wen",
+      "citation": "IEEE Transactions on Device and Materials Reliability, Vol. 24, No. 2 (2024) pp. 302–312, DOI: 10.1109/TDMR.2024.3386954",
+      "url": "https://doi.org/10.1109/TDMR.2024.3386954"
+    },
+    {
+      "title": "Testing and Delay-Monitoring for the High Reliability of Memory-based Programmable Logic Device",
+      "authors": "Xihong ZHOU, Senling WANG, Yoshinobu HIGAMI, Hiroshi TAKAHASHI",
+      "citation": "IEICE TRANSACTIONS on Information and Systems, Vol. E106-D, No.10 (2023) pp. 60–71, DOI: 10.1587/transinf.2023EDP7101",
+      "url": "https://doi.org/10.1587/transinf.2023EDP7101"
+    },
+    {
+      "title": "A Compact TRNG design for FPGA based on the Metastability of RO-Driven Shift Registers",
+      "authors": "QINGSONG PENG, JINGCHANG BIAN, ZHENGFENG HUANG, SENLING WANG, AIBIN YAN",
+      "citation": "ACM Transactions on Design Automation of Electronic Systems, Vol. 29, No. 13 (2023) pp. 1–17, DOI: 10.1145/3610295",
+      "url": "https://doi.org/10.1145/3610295"
+    },
+    {
+      "title": "Test Point Insertion for Multi-Cycle Power-On Self-Test",
+      "authors": "SENLING WANG, XIHONG ZHOU, YOSHINOBU HIGAMI, HIROSHI TAKAHASHI, HIROYUKI IWATA, YOICHI MAEDA, JUN MATSUSHIMA",
+      "citation": "ACM Transactions on Design Automation of Electronic Systems, Vol. 28, No. 3, Article 46 (2023) pp. 1–21, DOI: 10.1145/3563552",
+      "url": "https://doi.org/10.1145/3563552"
+    },
+    {
+      "title": "JTAGのセキュリティ脅威 -攻撃の現状とその対策-",
+      "authors": "王 森レイ, 亀山 修一, 高橋 寛",
+      "citation": "エレクトロニクス実装学会誌, Vol. 24, No. 7 (2021) 668頁–674頁, DOI: 10.5104/jiep.24.668",
+      "url": "https://doi.org/10.5104/jiep.24.668"
+    },
+    {
+      "title": "FF-Control Point Insertion (FF-CPI) to Overcome the Degradation of Fault Detection under Multi-Cycle Test for POST",
+      "authors": "Hanan T. AL-AWADHI, Tomoki AONO, Senling WANG, Yoshinobu HIGAMI, Hiroshi TAKAHASHI, Hiroyuki IWATA, Yoichi MAEDA, Jun MATSUSHIMA",
+      "citation": "IEICE Transactions on Information & Systems Vol. 103-D, No. 11 (2020) pp. 2289–2301, DOI: 10.1587/transinf.2019EDP7235",
+      "url": "https://doi.org/10.1587/transinf.2019EDP7235"
+    },
+    {
+      "title": "Automotive Functional Safety Assurance by POST with Sequential Observation",
+      "authors": "Senling Wang, Yoshinobu Higami, Hiroshi Takahashi, Hiroyuki Iwata, Jun Matsushima",
+      "citation": "IEEE Design and Test Magazine, Vol. 35, No. 3 (2018) pp. 39–45, DOI: 10.1109/MDAT.2018.2799801",
+      "url": "https://doi.org/10.1109/MDAT.2018.2799801"
+    },
+    {
+      "title": "A Flexible Scan-in Power Control Method in Logic BIST and Its Evaluation with TEG Chips",
+      "authors": "Takaaki Kato, Senling Wang, Yasuo Sato, Seiji Kajihara, Xiaoqing Wen",
+      "citation": "IEEE Transactions on Emerging Topics in Computing, Vol. 8, No. 3 (2017) pp. 591–601, DOI: 10.1109/TETC.2017.2767070",
+      "url": "https://doi.org/10.1109/TETC.2017.2767070"
+    },
+    {
+      "title": "A Method for Diagnosing Bridging Fault Between a Gate Signal Line and a Clock Line",
+      "authors": "Yoshinobu HIGAMI, Senling WANG, Hiroshi TAKAHASHI, Shin-Ya KOBAYASHI, Kewal K. SALUJA",
+      "citation": "IEICE Transactions on Information and Systems, Vol. E100-D, No. 9 (2017) pp. 2224–2227, DOI: 10.1587/transinf.2016EDL8210",
+      "url": "https://doi.org/10.1587/transinf.2016EDL8210"
+    },
+    {
+      "title": "Diagnosis Methods for Gate Delay Faults with Various Amounts of Delays",
+      "authors": "YOSHINOBU HIGAMI, SENLING WANG, HIROSHI TAKAHASHI, SHIN-YA KOBAYASHI, KEWAL K. SALUJA",
+      "citation": "IPSJ Transactions on System LSI Design Methodology, Vol. 9 (2016) pp. 13–20, DOI: 10.2197/ipsjtsldm.9.13",
+      "url": "https://doi.org/10.2197/ipsjtsldm.9.13"
+    },
+    {
+      "title": "Physical Power Evaluation of Low Power Logic-BIST Scheme Using Test Element Group Chip",
+      "authors": "Senling Wang, Yasuo Sato, Seiji Kajihara, and Hiroshi Takahashi",
+      "citation": "Journal of Low Power Electronics. Vol. 11, No. 4 (2015) pp. 528–540, DOI: 10.1166/jolpe.2015.1410",
+      "url": "https://doi.org/10.1166/jolpe.2015.1410"
+    },
+    {
+      "title": "Scan-Out Power Reduction for Logic BIST",
+      "authors": "Senling WANG, Yasuo SATO, Seiji KAJIHARA, Kohei MIYASE",
+      "citation": "IEICE Transactions on Information and Systems, Vol. E96-D, No. 9 (2013) pp. 2012–2020, DOI: 10.1587/transinf.E96.D.2012",
+      "url": "https://doi.org/10.1587/transinf.E96.D.2012"
+    }
+  ],
+  "conferences": [
+    {
+      "title": "Software-Defined Secure Island for Testing Chiplet Systems",
+      "authors": "Hisashi Okamoto, Senling Wang, Hiroshi Kai, Hiroshi Takahashi, Yoshinobu Higami, Hiroyuki Yotsuyanagi, Tianming Ni, Tai Song, Xiaoqing Wen",
+      "citation": "IEEE 34th Asian Test Symposium (ATS) (2025), pp. 61–66, doi: 10.1109/ATS66998.2025.00019.",
+      "url": "https://doi.org/10.1109/ATS66998.2025.00019"
+    },
+    {
+      "title": "LLM-Design Platform for Thermal-Failure-Aware 3D Chiplet Layout via Iterative Parameter Analysis",
+      "authors": "Tai Song, Senling Wang, Xiaoqing Wen",
+      "citation": "IEEE 34th Asian Test Symposium (ATS) (2025), pp. 55–60, doi: 10.1109/ATS66998.2025.00018.",
+      "url": "https://doi.org/10.1109/ATS66998.2025.00018"
+    },
+    {
+      "title": "A Lightweight and Secure One-time Authentication Protocol for MQTT based on SAS-L2",
+      "authors": "Ryoya Nakamura, Senling Wang, Hiroshi Kai, Hiroshi Takahashi, Akihiro Shimizu",
+      "citation": "2025 IEEE/IEIE International Conference on Consumer Electronics-Asia (ICCE-Asia) (2025） pp. 1–6, DOI: 10.1109/ICCE-Asia67487.2025.11263624.",
+      "url": "https://doi.org/10.1109/ICCE-Asia67487.2025.11263624"
+    },
+    {
+      "title": "Selection of Test Patterns and Primary Outputs for Volume Diagnosis",
+      "authors": "Yoshinobu Higami, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal K. Saluja",
+      "citation": "2025 International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC) (2025), pp. 1–6, DOI: 10.1109/ITC-CSCC66376.2025.11137748.",
+      "url": "https://doi.org/10.1109/ITC-CSCC66376.2025.11137748"
+    },
+    {
+      "title": "Binary Splitting Test Generation for a Pattern Matching Accelerator with In-Memory-Processing Architecture",
+      "authors": "Ryusuke Yamamoto, Tatsuya Nishikawa, Keisuke Kamita, Senling Wang, Shuichi Kameyama, Hiroshi Takahashi, Hiroshi Kai, Katsumi Inoue",
+      "citation": "The 8th International Conference on Electronics, Communications and Control Engineering(ICECC2025) Lecture Notes in Electrical Engineering, vol 1490. Springer, Singapore. (2025) pp 51–61, DOI: 10.1007/978-981-95-2820-2_5",
+      "url": "https://doi.org/10.1007/978-981-95-2820-2_5"
+    },
+    {
+      "title": "A Lightweight and Secure One-Time RFID Authentication Protocol Based on SAS-L2",
+      "authors": "Kengo Shimizu, Senling Wang, Hiroshi Kai, Hiroshi Takahashi, Akihiro Shimizu",
+      "citation": "Proc. of the IEEE The 9th International Conference On Consumer Electronics (ICCE) Asia (2024) pp. 1–4, DOI: 10.1109/ICCE-Asia63397.2024.10773800",
+      "url": "https://doi.org/10.1109/ICCE-Asia63397.2024.10773800"
+    },
+    {
+      "title": "Test Point Selection for Multi-Cycle Logic BIST using Multivariate Temporal-Spatial GCNs",
+      "authors": "Senling Wang, Shaoqi Wei, Hisashi Okamoto, Tatusya Nishikawa, Hiroshi Kai, Yoshinobu Higami, Hiroyuki Yotsuyanagi, Ruijun Ma, Tianming Ni, Hiroshi Takahashi, Xiaoqing Wen",
+      "citation": "Proc. of the IEEE International Test Conference in Asia (ITC-Asia) (2024) pp. 1–6, DOI: 10.1109/ITC-Asia62534.2024.10661324",
+      "url": "https://doi.org/10.1109/ITC-Asia62534.2024.10661324"
+    },
+    {
+      "title": "Deep-BMNN: Implementing Sparse Binary Neural Networks in Memory-Based Reconfigurable Processor (MRP)",
+      "authors": "Kenta Sasagawa, Senling Wang, Tetsuya Nishikawa, Hiroshi Kai, Yoshinobu Higami, Hiroshi Takahashi, Hiroyuki Yotsuyanagi, Tianming Ni, Xiaoqing Wen",
+      "citation": "Proc. of the International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC) (2024) pp. 1–6, DOI: 10.1109/ITC-CSCC62988.2024.10628398",
+      "url": "https://doi.org/10.1109/ITC-CSCC62988.2024.10628398"
+    },
+    {
+      "title": "Diagnosis of Double Faults Consisting of a Stuck-at Fault and a Transition Fault",
+      "authors": "Yoshinobu Higami, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal Saluja",
+      "citation": "Proc. of the International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC) (2024) pp. 1–6, DOI: 10.1109/ITC-CSCC62988.2024.10628279",
+      "url": "https://doi.org/10.1109/ITC-CSCC62988.2024.10628279"
+    },
+    {
+      "title": "A Lightweight and Machine-Learning-Resistant PUF framework based on Nonlinear Structure and Obfuscating Challenges",
+      "authors": "Tianming Ni, Fei Li, Qingsong Peng, Senling Wang, Xiaoqing Wen",
+      "citation": "Proc. of Asian Hardware Oriented Security and Trust Symposium (AsianHOST2023) (2023) pp. 1–6, DOI: 10.1109/AsianHOST59942.2023.10409383",
+      "url": "https://doi.org/10.1109/AsianHOST59942.2023.10409383"
+    },
+    {
+      "title": "Enhancing Defect Diagnosis and Localization in Wafer Map Testing through Weakly Supervised Learning",
+      "authors": "Mu Nie, Wen Jiang, Wankou Yang, Senling Wang, Xiaoqing Wen, Tianming Ni",
+      "citation": "Proc. of the 32nd IEEE Asian Test Symposium (2023) pp. 1–6, DOI: 10.1109/ATS59501.2023.10317989",
+      "url": "https://doi.org/10.1109/ATS59501.2023.10317989"
+    },
+    {
+      "title": "SASL-JTAG: A Light-Weight Dependable JTAG",
+      "authors": "Senling Wang, Shaoqi Wei, Jun Ma, Hiroshi Kai, Yoshinobu Higami, Hiroshi Takahashi, Akihiro Shimizu, Xiaoqing Wen, Tianming Ni",
+      "citation": "Proc. of the 36th IEEE Int'l Symp. on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (2023) pp. 1–6, DOI: 10.1109/DFT59622.2023.10313532",
+      "url": "https://doi.org/10.1109/DFT59622.2023.10313532"
+    },
+    {
+      "title": "QR-Code with Superimposed Text",
+      "authors": "Naoya Tahara, Senling Wang, Hiroshi Kai, Hiroshi Takahashi, Masakatu Morii",
+      "citation": "Proc. of the 24th Asia-Pacific Network Operations and Management Symposium (APNOMS) (2023) pp. 259–262",
+      "url": null
+    },
+    {
+      "title": "Test Point Selection Using Deep Graph Convolutional Networks and Advantage Actor Critic (A2C) Reinforcement Learning",
+      "authors": "Shaoqi Wei, Kohei Shiotani, Senling Wang, Hiroshi Kai, Yoshinobu Higami, Hiroshi Takahashi, Gang Wang",
+      "citation": "Proc. of the International Technical Conference on Circuits/Systems, Computers, and Communications, ITC-CSCC (2023) pp. 1–6, DOI: 10.1109/ITC-CSCC58803.2023.10212888",
+      "url": "https://doi.org/10.1109/ITC-CSCC58803.2023.10212888"
+    },
+    {
+      "title": "Improving of Fault Diagnosis Ability by Test Point Insertion and Output Compaction",
+      "authors": "Yoshinobu Higami, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal K. Saluja",
+      "citation": "Proc. of the International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC) (2023) pp. 1–6, DOI: 10.1109/ITC-CSCC58803.2023.10212844",
+      "url": "https://doi.org/10.1109/ITC-CSCC58803.2023.10212844"
+    },
+    {
+      "title": "Preliminary Study on Noise-Resilient Artificial Neural Networks for On-Chip Test Generation",
+      "authors": "Tsutomu Inamoto, Tomoki Nishino, Senling Wang, Yoshinobu Higami, Hiroshi Takahashi",
+      "citation": "Proc. of the IEEE Global Conference on Consumer Electronics (2022) pp. 561–565, DOI: 10.1109/GCCE56475.2022.10014218",
+      "url": "https://doi.org/10.1109/GCCE56475.2022.10014218"
+    },
+    {
+      "title": "Machine Learning Based Fault Diagnosis for Stuck-at Faults and Bridging Faults",
+      "authors": "Yoshinobu Higami, Takaya Yamauchi, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal K. Saluja",
+      "citation": "Proc. of the International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC) (2022) pp. 477–480, DOI: 10.1109/ITC-CSCC55581.2022.9894966",
+      "url": "https://doi.org/10.1109/ITC-CSCC55581.2022.9894966"
+    },
+    {
+      "title": "Diagnosis for Interconnect Faults in Memory-based Reconfigurable Logic Device",
+      "authors": "Xihong Zhou, Senling Wang, Yoshinobu Higami, Hiroshi Takahashi",
+      "citation": "Proc. of the IEEE the 22nd Workshop on RTL and High-Level Testing (WRTLT) (2021) pp. 11–16",
+      "url": null
+    },
+    {
+      "title": "Compaction of Fault Dictionary without Degrading Diagnosis Ability",
+      "authors": "Yoshinobu Higami, Tomokazu Nakamura, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal K. Saluja",
+      "citation": "Proc. of the International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC) (2021) pp. 1–4, DOI: 10.1109/ITC-CSCC52171.2021.9501474",
+      "url": "https://doi.org/10.1109/ITC-CSCC52171.2021.9501474"
+    },
+    {
+      "title": "MNN: A Solution to Implement Neural Networks into a Memory-based Reconfigurable Logic Device (MRLD)",
+      "authors": "Xihong Zhou, Senling Wang, Yoshinobu Higami, Hiroshi Takahashi, Mitsunori Katsu, Shoichi Sekiguchi",
+      "citation": "Proc. of the 36th International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC) (2021) pp. 1–4, DOI: 10.1109/ITC-CSCC52171.2021.9501454",
+      "url": "https://doi.org/10.1109/ITC-CSCC52171.2021.9501454"
+    },
+    {
+      "title": "Reduction of Fault Dictionary Size by Optimizing the Order of Test Patterns Application",
+      "authors": "Yoshinobu Higami, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal K. Saluja",
+      "citation": "Proc. of the International Technical Conference on Circuits, Systems, Computers, and Communications (ITC-CSCC) (2020) pp. 131–136",
+      "url": null
+    },
+    {
+      "title": "Ring-Oscillator Implementation for Monitoring the Aging State of Memory-based Reconfigurable Logic Device (MRLD)",
+      "authors": "Xihong Zhou, Senling Wang, Yoshinobu Higami, Hiroshi Takahashi",
+      "citation": "Proc. of the International Technical Conference on Circuits, Systems, Computers, and Communications (ITC-CSCC) (2020) pp. 228–233",
+      "url": null
+    },
+    {
+      "title": "Compact Dictionaries for Reducing Compute Time in Adaptive Diagnosis",
+      "authors": "Yoshinobu Higami, Tomokazu Nakamura, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal K. Saluja",
+      "citation": "Proc. of the 34th International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC) (2019) pp. 124–127",
+      "url": null
+    },
+    {
+      "title": "Feasibility of Machine Learning Algorithm for Test Partitioning",
+      "authors": "Senling Wang, Hanan T. Al-Awadhi, Masatoshi Aohagi, Yoshinobu Higami, Hiroshi Takahashi",
+      "citation": "Proc. of the 34th International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC) (2019) pp. 217–220",
+      "url": null
+    },
+    {
+      "title": "On Flip-Flop Selection for Multi-Cycle Scan Test with Partial Observation in Logic BIST",
+      "authors": "Shigeyuki Oshima, Takaaki Kato, Senling Wang, Yasuo Sato, Seiji Kajihara",
+      "citation": "Proc. of the IEEE Asian Test Symposium (ATS) (2018) pp. 30–35, DOI: 10.1109/ATS.2018.00017",
+      "url": "https://doi.org/10.1109/ATS.2018.00017"
+    },
+    {
+      "title": "Test Method for the Bridge Interconnect Faults in Memory Based Reconfigurable-Logic-Device (MRLD) Considering the Place-and-Route",
+      "authors": "Senling Wang, Tomoki Aono, Tatsuya Ogawa, Yoshinobu Higami, Hiroshi Takahashi, Mitsunori Katsu, Shoichi Sekiguchi",
+      "citation": "Proc. of the International Technical Conference on Circuits, Systems, Computers, and Communications (ITC-CSCC) (2018) pp. 1–6",
+      "url": null
+    },
+    {
+      "title": "Fault Diagnosis Considering Path Delay Variations in Multi-Cycle Test Environment",
+      "authors": "Yoshinobu Higami, Tsutomu Inamoto, Senling Wang, Hiroshi Takahashi, Kewal, K. Saluja",
+      "citation": "Proc. of the International Technical Conference on Circuits, Systems, Computers, and Communications (ITC-CSCC) (2018) pp. 1–6",
+      "url": null
+    },
+    {
+      "title": "Testing of interconnect defects in memory based reconfigurable logic device (MRLD)",
+      "authors": "Senling Wang, Yoshinobu Higami, Hiroshi Takahashi, Masayuki Sato, Mitsunori Katsu, Shoichi Sekiguchi",
+      "citation": "Proc. of the IEEE Asian Test Symposium (ATS) (2018) pp. 13–18, DOI: 10.1109/ATS.2017.16",
+      "url": "https://doi.org/10.1109/ATS.2017.16"
+    },
+    {
+      "title": "Fault-detection-strengthened method to enable the POST for very-large automotive MCU in compliance with ISO26262.",
+      "authors": "Senling Wang, Yoshinobu Higami, Hiroshi Takahashi, Hiroyuki Iwata, Yoichi Maeda, Jun Matsushima",
+      "citation": "Proc. of the IEEE European Test Symposium (ETS) (2018) pp. 1–2, DOI: 10.1109/ETS.2018.8400707",
+      "url": "https://doi.org/10.1109/ETS.2018.8400707"
+    },
+    {
+      "title": "Capture-Pattern-Control to Address the Fault Detection Degradation Problem of Multi-cycle Test in Logic BIST",
+      "authors": "Senling Wang, Tomoki Aono, Yoshinobu Higami, Hiroshi Takahashi, Hiroyuki Iwata, Yoichi Maeda, Jun Matsushima",
+      "citation": "Proc. of the IEEE Asian Test Symposium (ATS) (2018) pp. 155–160, DOI: 10.1109/ATS.2018.00038",
+      "url": "https://doi.org/10.1109/ATS.2018.00038"
+    },
+    {
+      "title": "Towards an ISO26262 Compliant DFT Architecture Enabling POST for Ultra-Large-Scale Automotive MCU",
+      "authors": "Yoichi Maeda, Hiroyuki Iwata, Jun Matsushima, Senling Wang, Yoshinobu Higami, Hiroshi Takahashi",
+      "citation": "Proc. of the IEEE International Workshop on Automotive Reliability&Test (2017) pp. 1–2",
+      "url": null
+    },
+    {
+      "title": "Pattern Partitioning based Field Testing for Improving the Detection Latency of Aging-induced Delay Faults",
+      "authors": "Hanan T. Al-Awadhi, Senling Wang, Yoshinobu Higami, Hiroshi Takahashi",
+      "citation": "Proc. of the 32nd International Technical Conference on Circuits, Systems, Computers, and Communications (ITC-CSCC) (2017) pp. 1–4",
+      "url": null
+    },
+    {
+      "title": "Structure-Based Methods for Selecting Fault-Detection-Strengthened FF under Multi-cycle Test with Sequential Observation",
+      "authors": "Senling Wang, Hanan T. Al-Awadhi, Soh Hamada, Yoshinobu Higami, Hiroshi Takahashi, Hiroyuki Iwata and Jun Matsushima",
+      "citation": "Proc. of the IEEE 25th Asian Test Symposium (ATS) (2016) pp. 209–214, DOI: 10.1109/ATS.2016.40",
+      "url": "https://doi.org/10.1109/ATS.2016.40"
+    },
+    {
+      "title": "A Flexible Power Control Method for Right Power Testing of Scan-Based Logic BIST",
+      "authors": "Takaaki KATO, Senling WANG, Yasuo SATO, Seiji KAJIHARA and Xiaoqing WEN",
+      "citation": "Proc. of the IEEE 25th Asian Test Symposium (ATS) (2016) pp. 203–208, DOI: 10.1109/ATS.2016.59",
+      "url": "https://doi.org/10.1109/ATS.2016.59"
+    },
+    {
+      "title": "Pattern Partitioning for Field Testing Considering the Aging Speed",
+      "authors": "Hanan T. Al-Awadhi, Senling Wang, Yoshinobu Higami, Hiroshi Takahashi",
+      "citation": "Proc. of the IEEE Workshop on RTL and High-Level Testing (WRTLT) (2016) pp. 72–76",
+      "url": null
+    },
+    {
+      "title": "A Simulated Annealing based Pattern Selection Method to Handle Power Supply Noise for Resistive Open Fault Diagnosis",
+      "authors": "Senling Wang, Taiga Inoue, Hanan T. Al-Awadhi, Yoshinobu Higami, Hiroshi Takahashi",
+      "citation": "Proc. of the International Technical Conference on Circuits, Systems, Computers, and Communications (ITC-CSCC) (2015) pp. 592–595",
+      "url": null
+    },
+    {
+      "title": "Diagnosis of Delay Faults in the Presence of Clock Delays Considering Hazards",
+      "authors": "Yoshinobu Higami, Senling Wang, Hiroshi Takahashi, Shin-ya Kobayashi and Kewal K. Saluja",
+      "citation": "Proc. of the International Technical Conference on Circuits, Systems, Computers, and Communications (ITC-CSCC) (2015) pp. 592–595",
+      "url": null
+    },
+    {
+      "title": "Diagnosis of Delay Faults Considering Hazards,",
+      "authors": "Yoshinobu Higami, Senling Wang, Hiroshi Takahashi, Shin-ya Kobayashi and Kewal K. Saluja",
+      "citation": "Proc. of the IEEE Computer Society Annual Symposium on VLSI (2015) pp. 503–508, DOI: 10.1109/ISVLSI.2015.67",
+      "url": "https://doi.org/10.1109/ISVLSI.2015.67"
+    },
+    {
+      "title": "Power Evaluation of a Low Power Logic BIST Scheme using TEG Chip",
+      "authors": "Senling Wang, Toshiya Nishida, Yasuo Sato, Seiji Kajihara and Hiroshi Takahashi",
+      "citation": "Proc. of the IEEE Workshop on RTL and High-Level Testing (WRTLT) (2014) pp. 8–13",
+      "url": null
+    },
+    {
+      "title": "A Scan-Out Power Reduction Method for Multi-cycle BIST",
+      "authors": "Senling Wang, Yasuo Sato, Kohei Miyase, Seiji Kajihara",
+      "citation": "Proc. of the IEEE 21st Asian Test Symposium (ATS) (2012) pp. 272–277, DOI: 10.1109/ATS.2012.50",
+      "url": "https://doi.org/10.1109/ATS.2012.50"
+    },
+    {
+      "title": "Low Power BIST for Scan-Shift and Capture Power",
+      "authors": "Yasuo Sato, Senling Wang, Kohei Miyase, Seiji Kajihara",
+      "citation": "Proc. of the IEEE 21st Asian Test Symposium (ATS) (2012) pp. 173–178, DOI: 10.1109/ATS.2012.27",
+      "url": "https://doi.org/10.1109/ATS.2012.27"
+    },
+    {
+      "title": "Genetic Algorithm Based Approach for Segmented Testing",
+      "authors": "Xiaoxin Fan, S.M. Reddy, Senling Wang, Seiji Kajihara, Yasuo Sato",
+      "citation": "Proc. of the IEEE/IFIP 41st International Conference on Dependable Systems and Networks Workshops (DSNW) (2011) pp. 85–90",
+      "url": null
+    },
+    {
+      "title": "A Pattern Partitioning Algorithm for Field Test",
+      "authors": "Senling Wang, Seiji Kajihara, Yasuo Sato, Xiaoxin Fan, S.M. Reddy",
+      "citation": "Proc. of the 2nd Int'l Workshop on Reliability Aware System Design and Test (RASDAT'11) (2011) pp. 31–37",
+      "url": null
+    }
+  ],
+  "domestic": [
+    {
+      "title": "FPGA実装したBinarized Neural Networksにおける故障注入実験および推論精度の定量的評価",
+      "authors": "紙田佳祐, 甲斐 博, 王 森レイ, 高橋 寛",
+      "citation": "信学技報, Vol. 125 No. 352, 13頁–18頁, 2026-2-16",
+      "url": null
+    },
+    {
+      "title": "ニアメモリアーキテクチャを用いた集合演算プロセッサにおける並列分割テスト",
+      "authors": "王 子洋, 山本隆介, 王 森岭, 甲斐 博, 樋上喜信, 高橋 寛",
+      "citation": "信学技報, Vol. 125, No. 262, 35頁–39頁, 2025-12-3",
+      "url": null
+    },
+    {
+      "title": "LLMを用いた論理回路のテスタビリティ解析",
+      "authors": "井手秋孝, 王 森岭, 甲斐 博, 樋上喜信, 高橋 寛",
+      "citation": "信学技報, Vol. 125, No. 262, 204頁–209頁, 2025-12-3",
+      "url": null
+    },
+    {
+      "title": "エッジAIシステム向け組込み型パターンマッチングアクセラレータSOPのFPGA実装と性能評価",
+      "authors": "山本隆介, 髙橋佳汰, 王森レイ, 甲斐博, 高橋寛, 亀山修一, 井上克己",
+      "citation": "DAシンポジウム2025 2025年9月",
+      "url": null
+    },
+    {
+      "title": "深層強化学習を用いたテストポイント挿入法に対する特徴解析",
+      "authors": "佐々木翔也, 井手秋孝, 王 森レイ, 甲斐 博, 高橋 寛",
+      "citation": "信学技報，Vol. 124，No. 374, 25頁–30頁，2025-2-11",
+      "url": null
+    },
+    {
+      "title": "大規模集合演算プロセッサ（SOP）のFPGA実装と高速化",
+      "authors": "西川竜矢, 山本隆介, 王森レイ, 亀山修一, 甲斐博, 高橋寛, 井上克己",
+      "citation": "DAシンポジウム2024論文集, Vol. 2024, 200頁-207頁, 2024-08-21",
+      "url": null
+    },
+    {
+      "title": "ワンタイムパスワード認証方式を用いたJTAGアクセス機構のスケーラビリティ向上について",
+      "authors": "岡本 悠, 塩谷 晃平, 西川 竜矢, 王森 レイ, 甲斐 博, 樋上 喜信, 高橋 寛, 清水 明宏",
+      "citation": "第38回エレクトロニクス実装学術講演大会, Vol. 38, 226頁–232頁, 2025-03-01",
+      "url": null
+    },
+    {
+      "title": "深層強化学習によるマルチサイクルBIST向けテストポイント選定法",
+      "authors": "塩谷晃平, 西川竜矢, 魏 少奇, 王 森レイ, 甲斐 博, 樋上喜信, 高橋 寛",
+      "citation": "信学技報, Vol. 123, No. 389, 23頁–28頁, 2024-02-21",
+      "url": null
+    },
+    {
+      "title": "メモリズムパターンマッチングアクセラレータのFPGA実装と性能評価",
+      "authors": "本田志遠, 西川竜矢, 周 細紅, 王 森レイ, 甲斐 博, 樋上喜信, 高橋 寛, 井上克己",
+      "citation": "信学技報, Vol. 123, No. 260, 162頁–167頁, 2023-11-08",
+      "url": null
+    },
+    {
+      "title": "メモリ型論理再構成装置におけるニューラルネットワークの実装について",
+      "authors": "笹川健太, 西川竜矢, 周 細紅, 王 森岭, 甲斐 博, 高橋 寛",
+      "citation": "信学技報, Vol. 123, No. 260, 112頁–116頁, 2023-11-08",
+      "url": null
+    },
+    {
+      "title": "グラフニューラルネットワークと深層強化学習による論理回路のテストポイント選択法",
+      "authors": "魏 少奇, 塩谷 晃平, 王 森レイ, 甲斐 博, 樋上 喜信, 高橋 寛",
+      "citation": "信学技報, Vol. 122, No. 393, 27頁–32頁, 2023-02-21",
+      "url": null
+    },
+    {
+      "title": "軽量なワンタイムパスワード認証方式を用いたJTAGアクセス機構のFPGA実装と面積評価",
+      "authors": "岡本 悠, 馬 竣, 王 森レイ, 甲斐 博, 高橋 寛, 清水明宏",
+      "citation": "信学技報, Vol. 122, No. 283, 168頁–173頁, 2022-11-21",
+      "url": null
+    },
+    {
+      "title": "マルチサイクルテストにおける故障検出率の推定法",
+      "authors": "中岡典弘, 王 森レイ, 樋上喜信, 高橋 寛, 岩田浩幸, 前田洋一, 松嶋 潤",
+      "citation": "信学技報, Vol. 120, No. 358, 36頁–41頁，2021-01-29",
+      "url": null
+    },
+    {
+      "title": "マルチサイクルテストにおけるスキャンパターン削減指向制御ポイントの選定法",
+      "authors": "環 輝, 王 森レイ, 樋上喜信, 高橋 寛, 岩田浩幸, 前田洋一, 松嶋 潤",
+      "citation": "信学技報, Vol. 120, No. 236, 24頁–29頁, 2020-11-10",
+      "url": null
+    },
+    {
+      "title": "マルチサイクルテストにおける故障検出強化のためのテストポイント挿入法",
+      "authors": "青野智己, 中岡典弘, 周 細紅, 王 森レイ, 樋上喜信, 高橋 寛, 岩田浩幸, 前田洋一, 松嶋 潤",
+      "citation": "信学技報, Vol. 119, No. 420, 19頁–24頁, 2020-02-19",
+      "url": null
+    },
+    {
+      "title": "確率ベース手法を用いたマルチサイクルテストにおけるキャプチャパターンの故障検出能力低下問題の解析",
+      "authors": "中岡 典弘, 青野 智己, 工藤 壮司, 王 森レイ, 樋上 喜信, 高橋 寛, 岩田 浩幸, 前田 洋一, 松嶋 潤",
+      "citation": "信学技報, Vol. 119, No. 282, 145頁–150頁, 2019-11-06",
+      "url": null
+    },
+    {
+      "title": "マルチサイクルテストにおける故障検出強化のためのFFトグル制御ポイントの選択法",
+      "authors": "青野智己, Hanan T.Al-Awadhi, 王 森レイ, 樋上喜信, 高橋 寛, 岩田浩幸, 前田洋一, 松嶋 潤",
+      "citation": "信学技報, Vol. 118, No. 456, 49頁–54頁, 2019-02-20",
+      "url": null
+    },
+    {
+      "title": "論理BISTのテスト電力制御手法とTEG評価について",
+      "authors": "加藤 隆明, 王 森レイ, 佐藤 康夫, 梶原 誠司",
+      "citation": "信学技報, Vol. 118, No. 334, 125頁–130頁, 2018-11-28",
+      "url": null
+    },
+    {
+      "title": "メモリベース再構成デバイスMRLDにおけるブリッジ接続故障のテスト方法",
+      "authors": "王 森レイ, 小川達也, 樋上喜信, 高橋 寛, 佐藤正幸, 勝 満徳, 関口象一",
+      "citation": "信学技報, Vol. 117, No. 444, 61頁–66頁, 2018-02-13",
+      "url": null
+    },
+    {
+      "title": "論理BISTにおけるスキャンイン電力制御手法とTEG評価",
+      "authors": "加藤 隆明, 王 森レイ, 佐藤 康夫, 梶原 誠司, 温暁青",
+      "citation": "DAシンポジウム2016論文集, Vol. 2016，No.15, 79頁–84頁",
+      "url": null
+    },
+    {
+      "title": "三次元積層後のTSV抵抗の精密計測法のアナログ回路設計について",
+      "authors": "王 森レイ, 香川 敬祐, 亀山 修一, 樋上 喜信，高橋 寛",
+      "citation": "信学技報, Vol. 115, No. 449, 49頁–54頁, 2016-02-17",
+      "url": null
+    },
+    {
+      "title": "アナログバウンダリスキャンを用いた三次元積層後のTSV抵抗の精密計測法の実装について",
+      "authors": "王 森レイ, 香川 敬祐, 亀山 修一, 樋上 喜信，高橋 寛",
+      "citation": "信学技報, Vol. 115, No. 338, 177頁–182頁, 2015-12-01",
+      "url": null
+    },
+    {
+      "title": "IR-dropを考慮した抵抗性オープン故障の診断用パターンの選択手法",
+      "authors": "王 森レイ, 井上大画, ハナン テイ・アル・アワディー, 樋上喜信, 高橋 寛",
+      "citation": "信学技報, Vol. 114, No. 446, 55頁–60頁, 2015-02-06",
+      "url": null
+    },
+    {
+      "title": "低電力BIST手法におけるキャプチャ電力のTEG評価",
+      "authors": "西田 敏也, 王 森レイ, 佐藤 康夫, 梶原 誠司",
+      "citation": "信学技報, Vol. 114, No. 99, 21頁–26頁, 2014-06-13",
+      "url": null
+    },
+    {
+      "title": "マルチサイクルBISTにおけるスキャン出力の電力低減手法",
+      "authors": "王 森レイ, 佐藤 康夫, 梶原 誠司, 宮瀬 紘平",
+      "citation": "信学技報, Vol. 112, No. 321, 249頁–254頁, 2012-11-19",
+      "url": null
+    },
+    {
+      "title": "論理BISTの電力低減手法と評価",
+      "authors": "佐藤 康夫, 王 森レイ, 加藤 隆明, 宮瀬 紘平, 梶原 誠司",
+      "citation": "信学技報, Vol. 112, No. 102, 33頁–38頁, 2012-06-15",
+      "url": null
+    },
+    {
+      "title": "低電力BISTにおけるシフトトグル率低減手法について",
+      "authors": "加藤 隆明, 王 森レイ, 宮瀬 絋平, 佐藤 康夫, 梶原 誠司",
+      "citation": "信学技報, Vol. 111, No. 435, 25頁–29頁, 2012-02-06",
+      "url": null
+    }
+  ]
+}
