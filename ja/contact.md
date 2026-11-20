@@ -12,8 +12,10 @@ permalink: /ja/contact/
 **Department**: 愛媛大学 大学院理工学研究科  
 **Specialization**: ディペンダブルVLSIシステム、ICテスト、半導体信頼性
 
-### Email
-**ou.shinrei.dw@ehime-u.ac.jp**
+### メール
+
+- **優先連絡先**: [ou.shinrei.dw@ehime-u.ac.jp](mailto:ou.shinrei.dw@ehime-u.ac.jp)
+- **その他の連絡先**: [wang@cs.ehime-u.ac.jp](mailto:wang@cs.ehime-u.ac.jp)
 
 ### Office Location
 **Ehime University**  
