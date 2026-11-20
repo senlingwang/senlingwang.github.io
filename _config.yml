@@ -13,7 +13,7 @@ locale: "ja-JP"
 author:
   name: "Senling Wang"
   avatar: "/assets/images/wang.jpg"
-  bio: "Lecturer, Ehime University. Research: IC test/diagnosis, dependable systems, AI chip reliability, and Physical AI robotics."
+  bio: "Associate Professor, Ehime University. Research: IC test/diagnosis, dependable systems, AI chip reliability, and Physical AI robotics."
   location: "Ehime, Japan"
   links:
     - label: "Lab"

@@ -389,7 +389,7 @@ classes: wide
     <img class="hp-photo" src="/assets/images/wang.jpg" alt="Senling Wang">
     <div class="hp-info">
       <h1 class="hp-name">Senling Wang</h1>
-      <p class="hp-role">Lecturer · Graduate School of Science and Engineering, Ehime University</p>
+      <p class="hp-role">Associate Professor · Graduate School of Science and Engineering, Ehime University</p>
       <p class="hp-meta">
         <span>📧 <a href="mailto:ou.shinrei.dw@ehime-u.ac.jp">ou.shinrei.dw@ehime-u.ac.jp</a></span>
         <span>🎓 Ph.D. in Information Engineering</span>

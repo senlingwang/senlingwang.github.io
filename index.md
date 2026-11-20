@@ -269,7 +269,7 @@ classes: wide
     <img class="landing-photo" src="/assets/images/wang.jpg" alt="Senling Wang">
     <h1 class="landing-name">Senling Wang</h1>
     <p class="landing-name-sub">王 森岭 ／ オウ シンレイ</p>
-    <p class="landing-title">Ph.D. — Lecturer, Ehime University</p>
+    <p class="landing-title">Ph.D. — Associate Professor, Ehime University</p>
     <p class="landing-tagline">
       Graduate School of Science and Engineering<br>
       Dependable Computing · IC Test & Diagnosis · AI Chip Reliability

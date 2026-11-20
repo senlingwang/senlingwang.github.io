@@ -8,7 +8,7 @@ permalink: /ja/contact/
 ## Contact Information
 
 **Name**: Senling Wang  
-**Position**: 講師  
+**Position**: 准教授<br>
 **Department**: 愛媛大学 大学院理工学研究科  
 **Specialization**: ディペンダブルVLSIシステム、ICテスト、半導体信頼性
 
@@ -52,4 +52,4 @@ Matsuyama, Ehime Prefecture 790-8577, Japan
 
 ---
 
-*Last updated: May 2026*
+*Last updated: November 2026*

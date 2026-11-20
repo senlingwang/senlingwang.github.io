@@ -42,17 +42,17 @@ I have participated in nine JSPS KAKENHI projects, serving as principal investig
 
 ## Industry Joint Research
 
-Research periods and funding amounts are based on the promotion review record updated in October 2026. Amounts are reproduced as listed; the Mitsubishi Electric Software project specifies separate fiscal-year amounts.
+Research topics and periods are based on the promotion review record updated in October 2026.
 
-| Company | Research topic | Period | Research funding |
-| --- | --- | --- | ---: |
-| 三浦工業MIRABOT株式会社 | Realizing an AI-driven smart factory using digital twins | 2026 | JPY 3,000,000 |
-| 三菱電機ソフトウエア株式会社 | Research on neural network algorithms implementable on FPGA | 2025–2026 | FY2025: JPY 1,800,000 / FY2026: JPY 1,990,000 |
-| 太陽誘電株式会社 | AI robot development in a digital twin | 2025–2026 | JPY 15,000,000 |
-| 太陽誘電株式会社 | Applications of generative AI to robots | 2024–2025 | JPY 5,000,000 |
-| AOT株式会社 | Implementation of 2D-SOP on FPGA | 2023–2025 | JPY 3,000,000 |
-| タカヤ株式会社 | Research on improving the efficiency of printed circuit board testing equipment | 2023–2026 | JPY 4,000,000 |
-| ルネサスエレクトロニクス株式会社 | Research on reducing field-test execution time through multi-cycle testing | 2016–2019 | JPY 5,000,000 |
+| Company | Research topic | Period |
+| --- | --- | --- |
+| 三浦工業MIRABOT株式会社 | Realizing an AI-driven smart factory using digital twins | 2026 |
+| 三菱電機ソフトウエア株式会社 | Research on neural network algorithms implementable on FPGA | 2025–2026 |
+| 太陽誘電株式会社 | AI robot development in a digital twin | 2025–2026 |
+| 太陽誘電株式会社 | Applications of generative AI to robots | 2024–2025 |
+| AOT株式会社 | Implementation of 2D-SOP on FPGA | 2023–2025 |
+| タカヤ株式会社 | Research on improving the efficiency of printed circuit board testing equipment | 2023–2026 |
+| ルネサスエレクトロニクス株式会社 | Research on reducing field-test execution time through multi-cycle testing | 2016–2019 |
 
 [Robot demo video from the Taiyo Yuden collaboration (YouTube)](https://youtu.be/zxKcb8hma6Q)
 

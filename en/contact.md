@@ -8,7 +8,7 @@ permalink: /en/contact/
 ## Contact Information
 
 **Name**: Senling Wang  
-**Position**: Lecturer  
+**Position**: Associate Professor<br>
 **Department**: Graduate School of Science and Engineering, Ehime University  
 **Specialization**: Dependable VLSI Systems, IC Testing, Semiconductor Reliability
 
@@ -53,4 +53,4 @@ Please contact me by email to arrange a meeting. Remote meetings are available f
 
 ---
 
-*Last updated: May 2026*
+*Last updated: November 2026*

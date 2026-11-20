@@ -4,7 +4,7 @@ This is the source repository for **Dr. Senling Wang's** personal academic websi
 
 ## About
 
-Dr. Senling Wang is a **Lecturer** at Ehime University, Graduate School of Science and Engineering. His research focuses on:
+Dr. Senling Wang is an **Associate Professor** at Ehime University, Graduate School of Science and Engineering. His research focuses on:
 
 - **Dependable VLSI Systems** — IC testing, diagnosis, and testability design
 - **Automotive Functional Safety** — ISO 26262 compliance, power-on self-test (POST)
@@ -65,7 +65,7 @@ The site will be available at `http://localhost:4000/`.
 
 ## Data Source
 
-The bilingual publication pages render the 89 records in `_data/publications.json`. The industry joint-research tables on the project pages list research topics, periods, and funding amounts from the October 2026 promotion review record.
+The bilingual publication pages render the 89 records in `_data/publications.json`. The industry joint-research tables on the project pages list research topics and periods from the October 2026 promotion review record.
 
 ## Updates
 
@@ -87,4 +87,4 @@ For research collaboration, mentoring inquiries, or technology partnerships, ple
 
 ---
 
-*Personal academic website of Dr. Senling Wang, Lecturer at Ehime University*
+*Personal academic website of Dr. Senling Wang, Associate Professor at Ehime University*

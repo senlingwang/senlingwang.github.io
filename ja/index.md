@@ -389,7 +389,7 @@ classes: wide
     <img class="hp-photo" src="/assets/images/wang.jpg" alt="王 森岭">
     <div class="hp-info">
       <h1 class="hp-name">王 森岭（Senling Wang）</h1>
-      <p class="hp-role">講師 · 愛媛大学 大学院理工学研究科</p>
+      <p class="hp-role">准教授 · 愛媛大学 大学院理工学研究科</p>
       <p class="hp-meta">
         <span>📧 <a href="mailto:ou.shinrei.dw@ehime-u.ac.jp">ou.shinrei.dw@ehime-u.ac.jp</a></span>
         <span>🎓 博士（情報工学）</span>
