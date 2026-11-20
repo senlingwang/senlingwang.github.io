@@ -42,8 +42,6 @@ I have participated in nine JSPS KAKENHI projects, serving as principal investig
 
 ## Industry Joint Research
 
-Research topics and periods are based on the promotion review record updated in October 2026.
-
 | Company | Research topic | Period |
 | --- | --- | --- |
 | 三浦工業MIRABOT株式会社 | Realizing an AI-driven smart factory using digital twins | 2026 |

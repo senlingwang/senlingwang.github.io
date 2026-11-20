@@ -69,7 +69,7 @@ The site will be available at `http://localhost:4000/`.
 
 ## Data Source
 
-The bilingual publication pages render the 104 records in `_data/publications.json`. The industry joint-research tables on the project pages list research topics and periods from the October 2026 promotion review record.
+The bilingual publication pages render the 104 records in `_data/publications.json`. The industry joint-research tables on the project pages list research topics and periods.
 
 ## Updates
 
